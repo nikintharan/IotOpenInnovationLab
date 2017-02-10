@@ -8,17 +8,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.js"></script>
     <script src="https://cdn.firebase.com/libs/firepad/1.4.0/firepad.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script><script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.css"/>
     <link rel="stylesheet" href="https://cdn.firebase.com/libs/firepad/1.4.0/firepad.css" />
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
-
 
 <style>
     .powered-by-firepad {
@@ -36,7 +28,6 @@
         apiKey: 'AIzaSyAT-MtTOD0YQ0sn5Zve_kQ-MODPGAd0KGY',
         databaseURL: 'https://iot-open-innovation-lab.firebaseio.com'
       });
-       
       var firepadRef_1 = firebase.database().ref('/workspace_form_data/1'+ '/answer_1/');
       var firepadRef_2 = firebase.database().ref('/workspace_form_data/2' + '/answer_2/');
       var firepadRef_3 = firebase.database().ref('/workspace_form_data/3' + '/answer_3/');
@@ -51,7 +42,6 @@
       var firepadRef_12 = firebase.database().ref('/workspace_form_data/12' + '/answer_12/');
       var firepadRef_13 = firebase.database().ref('/workspace_form_data/13' + '/answer_13/');
       var firepadRef_14 = firebase.database().ref('/workspace_form_data/14' + '/answer_14/');
-      
       var codeMirror_1 = CodeMirror(document.getElementById('answer_1'), { lineWrapping: true });
       var codeMirror_2 = CodeMirror(document.getElementById('answer_2'), { lineWrapping: true });
       var codeMirror_3 = CodeMirror(document.getElementById('answer_3'), { lineWrapping: true });
@@ -66,7 +56,6 @@
       var codeMirror_12 = CodeMirror(document.getElementById('answer_12'), { lineWrapping: true });
       var codeMirror_13 = CodeMirror(document.getElementById('answer_13'), { lineWrapping: true });
       var codeMirror_14 = CodeMirror(document.getElementById('answer_14'), { lineWrapping: true });
-
       var answer_1 = Firepad.fromCodeMirror(firepadRef_1, codeMirror_1, { richTextShortcuts: false, richTextToolbar: false, defaultText: 'Answer' });
       var answer_2 = Firepad.fromCodeMirror(firepadRef_2, codeMirror_2, { richTextShortcuts: false, richTextToolbar: false, defaultText: 'Answer' });
       var answer_3 = Firepad.fromCodeMirror(firepadRef_3, codeMirror_3, { richTextShortcuts: false, richTextToolbar: false, defaultText: 'Answer' });
@@ -83,14 +72,6 @@
       var answer_14 = Firepad.fromCodeMirror(firepadRef_14, codeMirror_14, { richTextShortcuts: false, richTextToolbar: false, defaultText: 'Answer' });
     }
   </script>
-
-  <script type="text/javascript">
-          $(document).ready(function(){
-              $('.your-class').slick({
-                  setting-name: setting-value
-          });
-          });
-  </script>
   
   <h2 align="center">Ideation Contest Form</h2>
 
@@ -98,9 +79,11 @@
   <p>More Intro Text <a href="https://www.lullabot.com/blog/article/processing-forms-angularjs">Link</a>.</p>
   <a href="https://github.com/juampy72/angularjs_form"></a>
 
+
   <div data-ng-controller="help">
     <div id="messages" class="alert alert-success" data-ng-show="messages" data-ng-bind="messages"></div>
     
+
     <form name="helpForm" novalidate role="form">
 
    <h3 align="center">Use Case Design</h3>
@@ -135,14 +118,7 @@
         <p><label for="name">Layer 3 (Control Layer) </label></p>
         <p><label for="name">In this layer, the sensors and actuators are connected to a microcontroller. E.g: Raspberry Pi, Arduino, Beaglebone Black  </label></p>
         <label for="name">Q. Which microcontroller do you need?  </label>
-        <div data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
-        <div><h3>1</h3></div>
-        <div><h3>2</h3></div>
-        <div><h3>3</h3></div>
-        <div><h3>4</h3></div>
-        <div><h3>5</h3></div>
-        <div><h3>6</h3></div>
-        </div>
+        <div style="height: 150px;" id="answer_8"></div>
 
         <p><label for="name">Layer 4 (Network Connectivity) </label></p>
         <p><label for="name">The microcontroller needs to transmit data over the network. E.g: here a baby camera transmits images and video through WiFi</label></p>
@@ -167,7 +143,7 @@
         <label for="name">9. Why do you think users won’t buy your product?</label>
         <div style="height: 150px;" id="answer_14"></div>
 
-        </div>
+          </div>
 
       <button data-ng-disabled="progress.active()" data-ng-click="submit(helpForm)" class="btn btn-default">Submit</button>
 
