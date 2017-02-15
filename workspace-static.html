@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!--  Last Published: Wed Feb 15 2017 04:48:09 GMT+0000 (UTC)  -->
+<html data-wf-page="589e16943091d49f0157a5c4" data-wf-site="58581448c258429e1e98d552">
+<head>
+  <meta charset="utf-8">
+  <title>Workspace-static</title>
+  <meta content="Workspace-static" property="og:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/iotopeninnovation.webflow.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script type="text/javascript">
+    WebFont.load({
+      google: {
+        families: ["Droid Sans:400,700"]
+      }
+    });
+  </script>
+  <script src="js/modernizr.js" type="text/javascript"></script>
+  <link href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
+  <head>
+    <title>IoT Open Innovation Lab</title>
+    <script type="text/javascript" src="http://code.angularjs.org/1.2.25/angular.min.js"></script>
+    <script type="text/javascript" src="https://s3.amazonaws.com/iotworkspace/js/modules/promise-tracker.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.js"></script>
+    <script src="https://cdn.firebase.com/libs/firepad/1.4.0/firepad.min.js"></script>
+    <script type="text/javascript" src="https://s3.amazonaws.com/iotworkspace/js/app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.css">
+    <link rel="stylesheet" href="https://cdn.firebase.com/libs/firepad/1.4.0/firepad.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <style>
+      .powered-by-firepad {
+          visibility: hidden;
+      }
+    </style>
+  </head>
+</head>
+<body>
+  <div class="workspacesec1">
+    <div class="navabout navbar w-nav" data-animation="default" data-collapse="small" data-duration="400">
+      <div class="navabout navcontainer w-container">
+        <a class="w-nav-brand" href="index.html"><img class="frontlogo" sizes="(max-width: 479px) 96vw, 260px" src="images/neu_iot_logo_v8.png" srcset="images/neu_iot_logo_v8-p-500x228.png 500w, images/neu_iot_logo_v8.png 600w" width="260">
+        </a>
+        <nav class="w-clearfix w-nav-menu" role="navigation"><a class="navbutton w-nav-link" href="index.html">Home</a>
+          <div class="w-clearfix w-dropdown" data-delay="100" data-hover="1">
+            <div class="navbutton navbutton1 w-dropdown-toggle">
+              <a class="body w-inline-block" href="start.html">
+                <div class="navdroptext">Start</div>
+              </a>
+            </div>
+            <nav class="dropdown w-clearfix w-dropdown-list"><a class="dropbutton navbutton w-dropdown-link">Sign IN</a><a class="dropbutton navbutton w-dropdown-link" href="learn.html">Learn</a><a class="dropbutton navbutton w-dropdown-link" href="get-organized.html">get organized</a><a class="dropbutton navbutton w-dropdown-link" href="workspace-static.html">Build</a>
+            </nav>
+          </div><a class="navbutton w-nav-link" href="about.html">ABOUT</a>
+        </nav>
+        <div class="w-nav-button">
+          <div class="w-icon-nav-menu"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="workspacesec2">
+    <div class="w-container">
+      <div class="w-embed w-script">
+        <body class="container" onload="init()">
+          <script>
+            function init() {
+              firebase.initializeApp({
+                apiKey: 'AIzaSyAT-MtTOD0YQ0sn5Zve_kQ-MODPGAd0KGY',
+                databaseURL: 'https://iot-open-innovation-lab.firebaseio.com'
+              });
+              var firepadRef_1 = firebase.database().ref('/workspace_form_data/1'+ '/answer_1/');
+              var firepadRef_2 = firebase.database().ref('/workspace_form_data/2' + '/answer_2/');
+              var firepadRef_3 = firebase.database().ref('/workspace_form_data/3' + '/answer_3/');
+              var firepadRef_4 = firebase.database().ref('/workspace_form_data/4' + '/answer_4/');
+              var firepadRef_5 = firebase.database().ref('/workspace_form_data/5' + '/answer_5/');
+              var firepadRef_6 = firebase.database().ref('/workspace_form_data/6' + '/answer_6/');
+              var firepadRef_7 = firebase.database().ref('/workspace_form_data/7' + '/answer_7/');
+              var firepadRef_8 = firebase.database().ref('/workspace_form_data/8' + '/answer_8/');
+              var firepadRef_9 = firebase.database().ref('/workspace_form_data/9' + '/answer_9/');
+              var firepadRef_10 = firebase.database().ref('/workspace_form_data/10' + '/answer_10/');
+              var firepadRef_11 = firebase.database().ref('/workspace_form_data/11' + '/answer_11/');
+              var firepadRef_12 = firebase.database().ref('/workspace_form_data/12' + '/answer_12/');
+              var firepadRef_13 = firebase.database().ref('/workspace_form_data/13' + '/answer_13/');
+              var firepadRef_14 = firebase.database().ref('/workspace_form_data/14' + '/answer_14/');
+              var codeMirror_1 = CodeMirror(document.getElementById('answer_1'), { lineWrapping: true });
+              var codeMirror_2 = CodeMirror(document.getElementById('answer_2'), { lineWrapping: true });
+              var codeMirror_3 = CodeMirror(document.getElementById('answer_3'), { lineWrapping: true });
+              var codeMirror_4 = CodeMirror(document.getElementById('answer_4'), { lineWrapping: true });
+              var codeMirror_5 = CodeMirror(document.getElementById('answer_5'), { lineWrapping: true });
+              var codeMirror_6 = CodeMirror(document.getElementById('answer_6'), { lineWrapping: true });
+              var codeMirror_7 = CodeMirror(document.getElementById('answer_7'), { lineWrapping: true });
+              var codeMirror_8 = CodeMirror(document.getElementById('answer_8'), { lineWrapping: true });
+              var codeMirror_9 = CodeMirror(document.getElementById('answer_9'), { lineWrapping: true });
+              var codeMirror_10 = CodeMirror(document.getElementById('answer_10'), { lineWrapping: true });
+              var codeMirror_11 = CodeMirror(document.getElementById('answer_11'), { lineWrapping: true });
+              var codeMirror_12 = CodeMirror(document.getElementById('answer_12'), { lineWrapping: true });
+              var codeMirror_13 = CodeMirror(document.getElementById('answer_13'), { lineWrapping: true });
+              var codeMirror_14 = CodeMirror(document.getElementById('answer_14'), { lineWrapping: true });
+              var answer_1 = Firepad.fromCodeMirror(firepadRef_1, codeMirror_1, { richTextShortcuts: false, richTextToolbar: false, defaultText: 'Answer' });
+              var answer_2 = Firepad.fromCodeMirror(firepadRef_2, codeMirror_2, { richTextShortcuts: false, richTextToolbar: false, defaultText: 'Answer' });
+              var answer_3 = Firepad.fromCodeMirror(firepadRef_3, codeMirror_3, { richTextShortcuts: false, richTextToolbar: false, defaultText: 'Answer' });
+              var answer_4 = Firepad.fromCodeMirror(firepadRef_4, codeMirror_4, { richTextShortcuts: false, richTextToolbar: false, defaultText: 'Answer' });
+              var answer_5 = Firepad.fromCodeMirror(firepadRef_5, codeMirror_5, { richTextShortcuts: false, richTextToolbar: false, defaultText: 'Answer' });
+              var answer_6 = Firepad.fromCodeMirror(firepadRef_6, codeMirror_6, { richTextShortcuts: false, richTextToolbar: false, defaultText: 'Answer' });
+              var answer_7 = Firepad.fromCodeMirror(firepadRef_7, codeMirror_7, { richTextShortcuts: false, richTextToolbar: false, defaultText: 'Answer' });
+              var answer_8 = Firepad.fromCodeMirror(firepadRef_8, codeMirror_8, { richTextShortcuts: false, richTextToolbar: false, defaultText: 'Answer' });
+              var answer_9 = Firepad.fromCodeMirror(firepadRef_9, codeMirror_9, { richTextShortcuts: false, richTextToolbar: false, defaultText: 'Answer' });
+              var answer_10 = Firepad.fromCodeMirror(firepadRef_10, codeMirror_10, { richTextShortcuts: false, richTextToolbar: false, defaultText: 'Answer' });
+              var answer_11 = Firepad.fromCodeMirror(firepadRef_11, codeMirror_11, { richTextShortcuts: false, richTextToolbar: false, defaultText: 'Answer' });
+              var answer_12 = Firepad.fromCodeMirror(firepadRef_12, codeMirror_12, { richTextShortcuts: false, richTextToolbar: false, defaultText: 'Answer' });
+              var answer_13 = Firepad.fromCodeMirror(firepadRef_13, codeMirror_13, { richTextShortcuts: false, richTextToolbar: false, defaultText: 'Answer' });
+              var answer_14 = Firepad.fromCodeMirror(firepadRef_14, codeMirror_14, { richTextShortcuts: false, richTextToolbar: false, defaultText: 'Answer' });
+            }
+          </script>
+          <h2 align="center">Ideation Contest Form</h2>
+          <p>Intro Text</p>
+          <p>More Intro Text <a href="https://www.lullabot.com/blog/article/processing-forms-angularjs">Link</a>.</p>
+          <a href="https://github.com/juampy72/angularjs_form"></a>
+          <div data-ng-controller="help">
+            <div id="messages" class="alert alert-success" data-ng-show="messages" data-ng-bind="messages"></div>
+            <form name="helpForm" novalidate="" role="form">
+              <h3 align="center">Use Case Design</h3>
+              <div class="form-group">
+                <label for="name">1. Who is your user?</label>
+                <div style="height: 150px;" id="answer_1"></div>
+                <label for="name">2. Provide a narrative of the user’s problem</label>
+                <div style="height: 150px;" id="answer_2"></div>
+                <label for="name">3. How is it currently solved?</label>
+                <div style="height: 150px;" id="answer_3"></div>
+                <label for="name">4. What key attributes of the existing solution are you trying to improve?</label>
+                <div style="height: 150px;" id="answer_4"></div>
+                <label for="name">5. Explain how your solution ranks in relation to the existing solution, in each key attribute?</label>
+                <div style="height: 150px;" id="answer_5"></div>
+                <h3 align="center">Technology Architecture</h3>
+                <p>
+                  <label for="name">Layer 1 (Physical) </label>
+                </p>
+                <p>
+                  <label for="name">The physical entity e.g. heater, humidifier, e-bike, Baby Camera </label>
+                </p>
+                <label for="name">Q. What simple everyday object does it look similar to? </label>
+                <div style="height: 150px;" id="answer_6"></div>
+                <p>
+                  <label for="name">Layer 2 (Sensors and Actuators) </label>
+                </p>
+                <p>
+                  <label for="name">In this layer, the physical entity has sensors, and actuating elements. For a baby camera, an example of the sensors are the optical sensor and motion sensor</label>
+                </p>
+                <label for="name">Q. Which sensors and actuators do you need? </label>
+                <div style="height: 150px;" id="answer_7"></div>
+                <p>
+                  <label for="name">Layer 3 (Control Layer) </label>
+                </p>
+                <p>
+                  <label for="name">In this layer, the sensors and actuators are connected to a microcontroller. E.g: Raspberry Pi, Arduino, Beaglebone Black </label>
+                </p>
+                <label for="name">Q. Which microcontroller do you need? </label>
+                <div style="height: 150px;" id="answer_8"></div>
+                <p>
+                  <label for="name">Layer 4 (Network Connectivity) </label>
+                </p>
+                <p>
+                  <label for="name">The microcontroller needs to transmit data over the network. E.g: here a baby camera transmits images and video through WiFi</label>
+                </p>
+                <label for="name">Q. How is the microcontroller sending data? (E.g WiFi, ZigBee, Bluetooth) </label>
+                <div style="height: 150px;" id="answer_9"></div>
+                <p>
+                  <label for="name">Layer 5 (Data) </label>
+                </p>
+                <p>
+                  <label for="name">The data needs to be collected, analyzed and presented to the user. E.g: The user receives the images and videos from the baby camera on a mobile device</label>
+                </p>
+                <label for="name">Q. What happens to the transmitted data? </label>
+                <div style="height: 150px;" id="answer_10"></div>
+                <h3 align="center">Business Case Design</h3>
+                <label for="name">6. Given the benefits you're providing, how much would your user be willing to pay? (Refer to 5.)</label>
+                <div style="height: 150px;" id="answer_11"></div>
+                <label for="name">7. Given the benefits you're providing and the price, what is the market potential in terms of # of users, and why?</label>
+                <div style="height: 150px;" id="answer_12"></div>
+                <label for="name">8. How do you think this product should be launched in the market?</label>
+                <div style="height: 150px;" id="answer_13"></div>
+                <label for="name">9. Why do you think users won’t buy your product?</label>
+                <div style="height: 150px;" id="answer_14"></div>
+              </div>
+              <button data-ng-disabled="progress.active()" data-ng-click="submit(helpForm)" class="btn btn-default">Submit</button>
+            </form>
+          </div>
+        </body>
+      </div>
+    </div>
+  </div>
+  <div class="headertop"></div>
+  <div class="footer">
+    <div class="footerrt w-richtext">
+      <p>©&nbsp;2017 IoT Open Innovation Lab</p>
+      <p>Boston, Massachusetts </p>
+      <p>Privacy Policy ·&nbsp;Terms of Service</p>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
+</html>
