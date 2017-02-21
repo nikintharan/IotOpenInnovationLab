@@ -281,8 +281,8 @@ fieldset[disabled] .btn {
   padding: 0px 15px;
 }
 .navbar-brand img {
-  width: 150%;
-  height: 150%;
+  width: 115%;
+  height: auto;
 }
 
 .navbar-nav a {

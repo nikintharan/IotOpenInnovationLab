@@ -1,30 +1,30 @@
 a{
-  color: #E91E63;
+  color: #333;
 }
 a:hover{
-  color: #E91E63;
+  color: #ADADAD;
 }
 .btn-common {
-  background: #E91E63;
+  background: #333;
 }
 .btn-common:hover{
- box-shadow: 0 14px 26px -12px rgba(233,30,99,0.42), 0 4px 23px 0px rgba(233,30,99,0.12), 0 8px 10px -5px rgba(233,30,99,0.02);
+ box-shadow: 0 14px 26px -12px rgba(211,211,211,0.42), 0 4px 23px 0px rgba(211,211,211,0.12), 0 8px 10px -5px rgba(211,211,211,0.02);
 }
 /* Back to Top */
 .back-to-top i {
-  background-color: #E91E63;
+  background-color: #ADADAD;
 }
 /* Top Roof */
 #roof{
-  background: #E91E63;
+  background: #333;
 }
 /* Navbar */
 .slicknav_btn{
-  border-color: #E91E63;
+  border-color: #333;
   border-radius: 2px;
 }
 .slicknav_menu .slicknav_btn .slicknav_icon-bar{
-  background: #E91E63;
+  background: #333;
 }
 .slicknav_menu .slicknav_btn:hover{
   background: #fff;
@@ -39,7 +39,7 @@ a:hover{
   background: #333;
 }
 .navbar-default .navbar-toggle .icon-bar{
-  background: #E91E63;
+  background: #333;
 }
 .navbar-event .navbar-nav li a:hover,
 .navbar-event .navbar-nav li .active > a,
@@ -74,80 +74,80 @@ a:hover{
 }
 /* Countdown */
 .countdown-timer .text h4{
-  color: #E91E63;
+  color: #333;
 }
 .time-entry span{
-    color: #E91E63;
+    color: #333;
 }
 /* Event */
 #event .tab-block .icon i{
-  color: #E91E63;
+  color: #333;
 }
 /* Featured icon */
 .featured-box .icon i{
-  color: #E91E63;
+  color: #333;
 }
 /* Schedule */
 .main-board .day > li.active > a, 
 .main-board .day > li.active > a:focus, 
 .main-board .day > li.active > a:hover{
-  background-color: #E91E63;
+  background-color: #333;
 }
 .main-board .day > li > a:focus, 
 .main-board .day > li > a:hover{
-  background: #E91E63;
+  background: #333;
 }
 /* Gellery */
 .gallery-item .icons i:hover{
-  color: #E91E63;
-  border-color: #E91E63;
+  color: #333;
+  border-color: #333;
 }
 /* Video */
 .ready-to-play:before{
-  background: #E91E63;
+  background: #333;
 }
 /* Blog */
 #blog .blog-info h3 a:hover{
-  color: #E91E63;
+  color: #333;
 }
 /* Pricing Table */
 .pricing-table .table-icon i{
-  color: #E91E63;
+  color: #333;
 }
 .pricing-table .table-icon i{
   background: rgba(233, 30, 99, 0.07);
 }
 /* Contact */
 #contact .title-header .icon i{
-  color: #E91E63;
+  color: #333;
 }
 #contact .label-line.active .label{
-   color: #E91E63;
+   color: #333;
 }
 #contact .label-line.active .span:before{
-  background: #E91E63;
+  background: #333;
 }
 #contact .span:before{
-  background: #E91E63;
+  background: #333;
 }
 /* page header */
 .page-header .breadcrumb li{
-  color: #E91E63;
+  color: #333;
 }
 .page-header .breadcrumb li a:hover{
-  color: #E91E63;
+  color: #333;
 }
 /* Intro */
 #intro::before{
-  background: #E91E63;
+  background: #333;
 }
 #subscribe-section::before{
-  background: #E91E63;
+  background: #333;
 }
 #subscribe-section 
 .subscribe-box 
 .subscribe-form button:hover{
-  color: #E91E63;
+  color: #333;
 }
 /* Speakers others */
 #team .team-img::before{
@@ -156,43 +156,43 @@ a:hover{
 
 /* Blog page */
 .post-title a:hover{
-  color: #E91E63;
+  color: #333;
 }
 .blog-post .post-content .meta .meta-part a:hover{
-  color: #E91E63;
+  color: #333;
 }
 #pagination .current,
 #pagination a:hover{
-  color: #E91E63;
+  color: #333;
 }
 .widget-search .search-btn:hover{
-  color: #E91E63;
+  color: #333;
 }
 .widget-title{
-  border-bottom-color: #E91E63;
+  border-bottom-color: #333;
 }
 #sidebar .posts-list .widget-content a:hover{
-  color: #E91E63;
+  color: #333;
 }
 #sidebar .cat-list li a:hover{
-  color: #E91E63;
+  color: #333;
 }
 #sidebar .tag a:hover{
-  color: #E91E63;
+  color: #333;
 }
 .post-slide .post-content h3 a:hover{
-  color: #E91E63;
+  color: #333;
 }
 .post-slide .post-content .meta .meta-part a:hover{
-  color: #E91E63;
+  color: #333;
 }
 .owl-theme .owl-controls .owl-page.active span, 
 .owl-theme .owl-controls.clickable .owl-page:hover span{
-  background: #E91E63;
+  background: #333;
 }
 #comments .comment-content .comment-date{
-  color: #E91E63;
+  color: #333;
 }
 .reply-link{
-  color: #E91E63;
+  color: #333;
 }
