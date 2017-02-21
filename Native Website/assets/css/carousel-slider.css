@@ -2,7 +2,7 @@
    Carousel Area Style
    ========================================================================== */
 #carousel-area {
-  background-color: #E9E9E9;
+  background-color: #333;
   overflow: hidden;
 }
 #carousel-area .carousel-inner:before {
