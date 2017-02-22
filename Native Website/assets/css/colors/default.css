@@ -42,38 +42,7 @@ a:hover{
   background: #333;
 }
 
-.navbar-event .navbar-nav li .active > a {
-  color: #333;
-}
 
-.navbar-event .navbar-nav li:hover,
-.navbar-event .navbar-nav li:focus
-{
-  color: #fff;
-}
-.navbar-event .navbar-nav > .active > a,
-.navbar-event .navbar-nav > .active > a:focus,
-.navbar-event .navbar-nav > .active > a:hover {
-  color: #333;
-  background: #fff !important;
-}
-
-.navbar-event.affix .navbar-nav > .active > a,
-.navbar-event.affix .navbar-nav > .active > a:focus,
-.navbar-event.affix .navbar-nav > .active > a:hover {
-  color: #fff;
-  background: #333 !important;
-}
-
-.navbar-event .navbar-nav > .open > a,
-.navbar-event .navbar-nav > .open > a:focus,
-.navbar-event .navbar-nav > .open > a:hover {
-  color: #333;
-}
-.navbar-event .navbar-nav > .active > a, 
-.navbar-event .navbar-nav > .active > a:hover{
-  color: #333;
-}
 /* Countdown */
 .countdown-timer .text h4{
   color: #333;
