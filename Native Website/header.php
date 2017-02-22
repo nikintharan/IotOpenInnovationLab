@@ -5,7 +5,7 @@
 
       <!-- Nav Menu Section Start -->
       <div class="navigation-menu">
-        <nav class="navbar navbar-default navbar-event" role="navigation" data-spy="affix" data-offset-top="20" >
+        <nav class="navbar navbar-default navbar-event" role="navigation" data-spy="affix" data-offset-top="0" >
           <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header col-md-2">
