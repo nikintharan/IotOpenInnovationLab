@@ -5,7 +5,7 @@
 
       <!-- Nav Menu Section Start -->
       <div class="navigation-menu">
-        <nav class="navbar navbar-default navbar-event" role="navigation" data-spy="affix" data-offset-top="0" id="topnavbar">
+        <nav class="navbar navbar-default navbar-event" role="navigation" data-spy="affix" data-offset-top="1" id="topnavbar">
           <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header col-md-2">
@@ -20,9 +20,10 @@
             
             <div class="collapse navbar-collapse" id="navbar">
               <ul class="nav navbar-nav navbar-right">
-                <li class="<?= ($activePage == 'index') ? 'active':''; ?>"><a href="index.php">Home</a></li>  
+              <li class="<?= ($activePage == 'index') ? 'active':''; ?>"><a href="index.php">Home</a></li>  
                 <li class="<?= ($activePage == 'start') ? 'active':''; ?>"><a href="start.php">Start</a></li>
-                <li class="<?= ($activePage == 'about') ? 'active':''; ?>"><a href="about.php">About</a></li>  
+                <li class="<?= ($activePage == 'about') ? 'active':''; ?>"><a href="about.php">About</a></li>
+                <li class="login-btn"><a class="cd-signin" href="#0">Sign in<i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
               </ul>
             </div><!-- /navbar-collapse -->
           </div><!-- /container -->
