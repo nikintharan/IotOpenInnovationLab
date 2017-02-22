@@ -1,6 +1,13 @@
+$('#topnavbar').on('affix.bs.affix affix-top.bs.affix', function (e) {
+    var padding = e.type === 'affix' ? $(this).height() : '';
+    $('body').css('padding-top', padding);
+});
+
 /* ==========================================================================
    Dropdown Menus
    ========================================================================== */
+
+
   $(".dropdown").hover(
     function () {
       $(this).addClass('open');
