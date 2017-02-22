@@ -4,8 +4,6 @@
 });
 */
 
- var path = window.location.href.substr(window.location.href
-.lastIndexOf("/")+1);
 
 /* ==========================================================================
    Dropdown Menus
