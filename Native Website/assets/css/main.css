@@ -504,6 +504,11 @@ fieldset[disabled] .btn {
   display: block;
   z-index: 9;
 }
+
+#carousel-area .carousel-inner img {
+  width: 100%;
+}
+
 #carousel-area .carousel-inner .item {
   background-attachment: fixed;
   background-size: 100%;
