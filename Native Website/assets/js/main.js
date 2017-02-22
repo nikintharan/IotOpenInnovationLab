@@ -1,6 +1,17 @@
+/*$(function(){
+  $("#header").load("header.html"); 
+  $("#footer").load("footer.html"); 
+});
+*/
+
+ var path = window.location.href.substr(window.location.href
+.lastIndexOf("/")+1);
+
 /* ==========================================================================
    Dropdown Menus
    ========================================================================== */
+
+
   $(".dropdown").hover(
     function () {
       $(this).addClass('open');

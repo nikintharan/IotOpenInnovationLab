@@ -36,47 +36,7 @@
   </head>
   <body>
 
-    <!-- Header Area wrapper Starts -->
-    <header id="header-wrap">
-
-      <!-- Nav Menu Section Start -->
-      <div class="navigation-menu">
-        <nav class="navbar navbar-default navbar-event" role="navigation" data-spy="affix" data-offset-top="20">
-          <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header col-md-2">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="index.html"><img src="assets/img/logo1.png" alt=""></a>
-            </div>
-
-            <div class="collapse navbar-collapse" id="navbar">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html">Home</a></li>
-                 <li class=" animated bounceIn"><a href="start.html">Start</a></li>              
-                <li class="active"><a href="about.html">About</a></li>                
-              </ul>
-            </div><!-- /navbar-collapse -->
-          </div><!-- /container -->
-
-          <!-- Mobile Menu Start -->
-          <ul class="wpb-mobile-menu">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="start.html">Start</a></li>
-              <li class="active"><a href="about.html">About</a></li>  
-           </ul>
-          <!-- Mobile Menu End -->
-
-        </nav>
-      </div>
-      <!-- Nav Menu Section End -->
-
-    </header>
-    <!-- Header Area wrapper End -->
+      <?php include ('header.php');?>
 
     <!-- Page Header Start -->
     <div class="page-header">      
@@ -220,21 +180,7 @@
     </section>
     <!-- Sponsors Section End --> 
 
-    <!-- Copytight Start -->
-    <section id="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center" >
-                    <p>&nbsp;</p>
-                    <p style="color: white;">©&nbsp;2017 IoT Open Innovation Lab</p>
-                    <p style="color: white;">Boston, MA </p>
-                    <p style="color: white;">Privacy Policy &nbsp;·&nbsp;Terms of Service</p>
-                    <p>&nbsp;</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Copytight End -->
+  <?php include ('footer.html');?>
 
 
     <!-- Go to Top Link -->

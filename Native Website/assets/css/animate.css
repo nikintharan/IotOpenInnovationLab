@@ -947,6 +947,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+  visibility: hidden;
 }
 
 @-webkit-keyframes fadeInDown {
@@ -982,6 +983,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
+  visibility: hidden;
 }
 
 @-webkit-keyframes fadeInDownBig {
@@ -1017,6 +1019,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .fadeInDownBig {
   -webkit-animation-name: fadeInDownBig;
   animation-name: fadeInDownBig;
+  visibility: hidden;
 }
 
 @-webkit-keyframes fadeInLeft {
@@ -1052,6 +1055,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .fadeInLeft {
   -webkit-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
+  visibility: hidden;
 }
 
 @-webkit-keyframes fadeInLeftBig {
@@ -1087,6 +1091,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .fadeInLeftBig {
   -webkit-animation-name: fadeInLeftBig;
   animation-name: fadeInLeftBig;
+  visibility: hidden;
 }
 
 @-webkit-keyframes fadeInRight {
@@ -1122,6 +1127,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .fadeInRight {
   -webkit-animation-name: fadeInRight;
   animation-name: fadeInRight;
+  visibility: hidden;
 }
 
 @-webkit-keyframes fadeInRightBig {
@@ -1157,6 +1163,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .fadeInRightBig {
   -webkit-animation-name: fadeInRightBig;
   animation-name: fadeInRightBig;
+  visibility: hidden;
 }
 
 @-webkit-keyframes fadeInUp {
@@ -1192,6 +1199,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
+  visibility: hidden;
 }
 
 @-webkit-keyframes fadeInUpBig {
@@ -1227,6 +1235,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .fadeInUpBig {
   -webkit-animation-name: fadeInUpBig;
   animation-name: fadeInUpBig;
+  visibility: hidden;
 }
 
 @-webkit-keyframes fadeOut {
