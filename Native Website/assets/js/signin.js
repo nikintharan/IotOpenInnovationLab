@@ -1,11 +1,12 @@
 $(document).ready(function($){
 
-	firebase_init();
+firebase_init();
 
 firebase.auth().onAuthStateChanged(function(user) {
 
 	if (user) {
 	var name = user.displayName;
+	name = name.substr(0,name.indexOf(' '));
 	$(".login-btn").parent('li').hide();
 	$(".cd-signup").parent('li').hide();
 	$(".cd-logout").show();
@@ -171,21 +172,22 @@ firebase.auth().onAuthStateChanged(function(user) {
 	function sign_up_form(username,email, password) {
       
       firebase.auth().createUserWithEmailAndPassword(email, password).then(function(){
-      location.reload();
+      var user = firebase.auth().currentUser;
+		user.updateProfile({
+			displayName: username
+			}).then(function() {
+					location.reload(); 
+			}, function(error) {
+				alert(error.message);
+			// An error happened. ----> Show alert with errir
+		});
+      
       } , function(error) {
 	  var errorCode = error.code;
 	  var errorMessage = error.message;
 	  alert(errorMessage)
 	})
-      var user = firebase.auth().currentUser;
-		user.updateProfile({
-			displayName: username
-			}).then(function() {
-			// Update successful. ----> redirect to homepage 
-			}, function(error) {
-				alert(error.message);
-			// An error happened. ----> Show alert with errir
-		});
+      
   };
 
 
