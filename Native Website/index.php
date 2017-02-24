@@ -18,7 +18,7 @@
             <div class="carousel-caption">
               <h2 class="wow fadeInRight" data-wow-delay="300ms">Ideation Contest<br> Join us be The First to Book Your Ticket</h2>
               <div class="buttons wow fadeInDown" data-wow-delay="0.2s"><a class="btn btn-lg btn-border" href="#">Registration</a></div>
-              <a data-scroll href="#featured">
+              <a data-scroll href="#countdown-timer-landing">
               <div class="rev-scroll-btn wow fadeInUp" data-wow-delay="600ms">
                 <span></span>
               </div>
@@ -65,7 +65,7 @@
     <!-- Main Slider Section End -->
 
     <!-- Coundown Section Start -->
-    <section class="countdown-timer section">
+    <section class="countdown-timer section" id="countdown-timer-landing">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.2s">

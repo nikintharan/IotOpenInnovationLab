@@ -2,20 +2,6 @@ $(document).ready(function($){
 
 firebase_init();
 
-firebase.auth().onAuthStateChanged(function(user) {
-
-	if (user) {
-	var name = user.displayName;
-	name = name.substr(0,name.indexOf(' '));
-	$(".login-btn").parent('li').hide();
-	$(".cd-signup").parent('li').hide();
-	$(".cd-logout").show();
-	$(".navbar-nav").append("<li class='user_name'><a href='#'>Hi "+name+"</a></li>");	
-		} 
-	else {
-
-	// nothing right now
-	}});
 
 	var formModal = $('.cd-user-modal'),
 		formLogin = formModal.find('#cd-login'),
@@ -27,7 +13,8 @@ firebase.auth().onAuthStateChanged(function(user) {
 		forgotPasswordLink = formLogin.find('.cd-form-bottom-message a'),
 		backToLoginLink = formForgotPassword.find('.cd-form-bottom-message a'),
 		signInButton = $('.cd-signin'),
-		signUpButton = $('.cd-signup')
+		signUpButton = $('.cd-signup'),
+		signOutButton = $('.cd-signout');
 		
 /*
 	//open modal
@@ -39,6 +26,8 @@ firebase.auth().onAuthStateChanged(function(user) {
 	signUpButton.on('click', signup_selected);
 	//open login-form form
 	signInButton.on('click', login_selected);
+
+	signOutButton.on('click',logOut_selected);
 
 	//close modal
 	formModal.on('click', function(event){
@@ -108,7 +97,15 @@ firebase.auth().onAuthStateChanged(function(user) {
 		tabLogin.removeClass('selected');
 		tabSignup.addClass('selected');
 	}
-
+	
+	function logOut_selected(){
+		firebase.auth().signOut().then(function() {
+  				document.cookie = 'username='+name+'; expires=Fri, 3 Aug 1970 20:47:11 UTC; path=/';
+  				location.reload();
+				}, function(error) {
+  						alert("Error logging you out. Try again.");
+						});
+	}
 	function forgot_password_selected(){
 		formLogin.removeClass('is-selected');
 		formSignup.removeClass('is-selected');
@@ -147,7 +144,15 @@ firebase.auth().onAuthStateChanged(function(user) {
 		form : '#log_in_form',
         modules : 'security',
     onSuccess : function($form) {
-      log_in_form($("#signin-email").val(),$("#signin-password").val());
+    	if ($('#remember-me').is(':checked'))
+    	{
+    		var time = 'Fri, 3 Aug 2018 20:47:11 UTC';
+    	}
+    	else
+    	{
+    		var time = '0';
+    	}
+      log_in_form($("#signin-email").val(),$("#signin-password").val(), time);
       return false; // Will stop the submission of the form
     }
 });
@@ -160,13 +165,27 @@ firebase.auth().onAuthStateChanged(function(user) {
       return false; // Will stop the submission of the form
     }
 });
-	function log_in_form(email, password) {
+
+	$.validate({
+		form : '#reset_password_form',
+        modules : 'security',
+    onSuccess : function($form) {
+      reset_password_form($("#reset-email").val());
+      return false; // Will stop the submission of the form
+    }
+});
+	function log_in_form(email, password, time) {
+
       firebase.auth().signInWithEmailAndPassword(email, password).then(function(){
+      	var user = firebase.auth().currentUser;
+      	var name = user.displayName;
+      	document.cookie = 'username='+name+'; expires='+time+'; path=/';
       	location.reload();
       } , function(error) {
 	  var errorCode = error.code;
 	  var errorMessage = error.message;
-	  alert(errorMessage)
+	  document.cookie = 'username=0; expires=Fri, 3 Aug 1970 20:47:11 UTC; path=/';
+	  alert("There was some error. Please try again later.")
 	})};
 
 	function sign_up_form(username,email, password) {
@@ -176,19 +195,32 @@ firebase.auth().onAuthStateChanged(function(user) {
 		user.updateProfile({
 			displayName: username
 			}).then(function() {
+					document.cookie = 'username='+username+'; expires=Fri, 3 Aug 2018 20:47:11 UTC; path=/';
 					location.reload(); 
 			}, function(error) {
-				alert(error.message);
+				document.cookie = 'username='+name+'; expires=Fri, 3 Aug 1970 20:47:11 UTC; path=/';
+				alert("There was some error. Please try again later.")
 			// An error happened. ----> Show alert with errir
 		});
       
       } , function(error) {
 	  var errorCode = error.code;
 	  var errorMessage = error.message;
-	  alert(errorMessage)
+	  document.cookie = 'username='+username+'; expires=Fri, 3 Aug 1970 20:47:11 UTC; path=/';
+	  alert("There was some error. Please try again later.")
 	})
       
   };
+
+  function reset_password_form(email)
+  {
+  	firebase.auth().sendPasswordResetEmail(email).then(function() {
+  		alert("Email sent. Please reset your password by clicking on the link in the email.");
+  		location.reload();
+		}, function(error) {
+ 		 alert("There was some error resetting your password. Please try again later.")
+		});
+  }
 
 
     function firebase_init() {

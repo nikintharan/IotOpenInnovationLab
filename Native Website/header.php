@@ -58,7 +58,16 @@
               <li class="<?= ($activePage == 'index') ? 'active':''; ?>"><a href="index.php">Home</a></li>  
                 <li class="<?= ($activePage == 'start') ? 'active':''; ?>"><a href="start.php">Start</a></li>
                 <li class="<?= ($activePage == 'about') ? 'active':''; ?>"><a href="about.php">About</a></li>
+                <?php  if (isset($_COOKIE["username"])){ 
+                        $firstname = substr($_COOKIE["username"], 0, strpos($_COOKIE["username"], ' '));
+                      ?> 
+                        <li class='user_name'><a href='#'><?php echo "Hi ".$firstname ?></a></li>
+                        <li class="logout-btn"><a class="cd-signout" href="#"">Log Out<i class="fa fa-lg fa-sign-out" aria-hidden="true"></i></a></li>
+                <?php 
+                  }
+                else { ?>
                 <li class="login-btn"><a class="cd-signin" href="#"">Sign in<i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
+                <?php } ?>
               </ul>
             </div><!-- /navbar-collapse -->
           </div><!-- /container -->
@@ -137,7 +146,7 @@
           </p>
 
           <p class="fieldset">
-            <input type="checkbox" id="accept-terms">
+            <input type="checkbox" id="accept-terms" data-validation="required">
             <label for="accept-terms">By signing up you agree to the <a href="#0">Terms and Conditions</a></label>
           </p>
 
