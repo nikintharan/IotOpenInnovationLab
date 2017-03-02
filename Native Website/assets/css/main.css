@@ -10,6 +10,28 @@
   padding-top:275px;
 }
 
+.video-overlay {
+  position: relative;
+}
+
+.video-overlay:before {
+  height: 800px;
+  background-image: -webkit-radial-gradient(circle farthest-corner at 50% 50%, rgba(0, 0, 0, .5) 22%, rgba(0, 0, 0, .76) 76%);
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, rgba(0, 0, 0, .5) 22%, rgba(0, 0, 0, .76) 76%);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+}
+
+.video-overlay video {
+  width: 100%
+}
+
+
+
 body {
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
@@ -793,7 +815,7 @@ color: #000;
 }
 #event .tab-block .icon i {
   font-size: 40px;
-  color: #333;
+  color: white;
 }
 #event .tab-block .desc h4 {
   color: #fff;
