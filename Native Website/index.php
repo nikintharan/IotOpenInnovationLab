@@ -50,8 +50,10 @@
         <div class="carousel-inner" role="listbox">
           <div class="item active">
             
-            <img src="assets/img/slider/bg-1.jpg" alt="">
-            
+            <!--<img src="assets/img/slider/bg-1.jpg" alt="">-->
+            <video autoplay loop> 
+              <source src='assets/video/frontpage.mp4'>
+            </video>
             
             <div class="carousel-caption">
               <h2 class="wow fadeInRight" data-wow-delay="300ms">Ideation Contest<br> Join us be The First to Book Your Ticket</h2>

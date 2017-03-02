@@ -486,6 +486,22 @@ fieldset[disabled] .btn {
   background-color: #E9E9E9;
   overflow: hidden;
 }
+
+.carousel-inner {
+  position: relative;
+  overflow: hidden;
+  height: 800px;
+  color: white;
+}
+.carousel-inner video {
+  margin: auto;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100
+}
+
 #carousel-area .carousel-inner:before {
   position: absolute;
   width: 100%;
