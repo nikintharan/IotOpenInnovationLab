@@ -13,12 +13,12 @@
           <div class="item active">
             
             <!--<img src="assets/img/slider/bg-1.jpg" alt="">-->
-            <video autoplay loop> 
+            <video autoplay loop class='frontVideo'> 
               <source src='assets/video/frontpage.mp4'>
             </video>
             
             <div class="carousel-caption">
-              <h2 class="wow fadeInRight" data-wow-delay="300ms">Ideation Contest<br> Join us be The First to Book Your Ticket</h2>
+              <h2 class="wow fadeInRight front-text" data-wow-delay="300ms">Ideation Contest<br> Join us be The First to Book Your Ticket</h2>
               <div class="buttons wow fadeInDown" data-wow-delay="0.2s"><a class="btn btn-lg btn-border" href="#">Registration</a></div>
               <a data-scroll href="#countdown-timer-landing">
               <div class="rev-scroll-btn wow fadeInUp" data-wow-delay="600ms">

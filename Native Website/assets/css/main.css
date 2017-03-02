@@ -5,6 +5,11 @@
 /* ==========================================================================
    Global Styles
    ========================================================================== */
+
+.front-text {
+  padding-top:275px;
+}
+
 body {
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
@@ -571,14 +576,7 @@ color: #000;
   height: 800px;
   color: white;
 }
-.carousel-inner video {
-  margin: auto;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100
-}
+
 
 #carousel-area .carousel-inner:before {
   position: absolute;
@@ -1166,15 +1164,11 @@ color: #000;
 video {
   position: absolute;
   top: 50%;
-  left: 50%;
   min-width: 100%;
   min-height: 100%;
   width: auto;
   height: auto;
   z-index: -100;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
   background-size: cover;
   transition: 1s opacity;
 }
