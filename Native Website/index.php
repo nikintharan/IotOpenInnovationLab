@@ -1,42 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-    <title>IoT Open Innovation Lab</title>
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >    
-    <!-- Main Style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <!-- Responsive Style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-    <!-- Fonts -->
-    <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome.min.css">
-    <!-- Icon -->
-    <link rel="stylesheet" type="text/css" href="assets/fonts/simple-line-icons.css"> 
-    <!-- Slicknav -->
-    <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
-    <!-- Nivo Lightbox -->
-    <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css" > 
-    <!-- Animate -->
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-    <!-- Owl carousel -->
-    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">   
-    
-    <!-- Color CSS Styles  -->
-    <link rel="stylesheet" type="text/css" href="assets/css/colors/default.css" media="screen" /> 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-  <?php include ('header.php');?>
+<?php include ('header.php');?>
 
     <!-- Main Slider Section Start -->
     <div id="carousel-area">
@@ -58,7 +20,7 @@
             <div class="carousel-caption">
               <h2 class="wow fadeInRight" data-wow-delay="300ms">Ideation Contest<br> Join us be The First to Book Your Ticket</h2>
               <div class="buttons wow fadeInDown" data-wow-delay="0.2s"><a class="btn btn-lg btn-border" href="#">Registration</a></div>
-              <a data-scroll href="#featured">
+              <a data-scroll href="#countdown-timer-landing">
               <div class="rev-scroll-btn wow fadeInUp" data-wow-delay="600ms">
                 <span></span>
               </div>
@@ -105,7 +67,7 @@
     <!-- Main Slider Section End -->
 
     <!-- Coundown Section Start -->
-    <section class="countdown-timer section">
+    <section class="countdown-timer section" id="countdown-timer-landing">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.2s">
@@ -232,41 +194,3 @@
     </section>
     <!-- Featured Section End -->
     <?php include ('footer.html');?>
-
-
-
-    <!-- Go to Top Link -->
-    <a href="#" class="back-to-top">
-    <i class="icon-arrow-up"></i>
-    </a>
-
-     
-
-    <!-- jQuery Load -->    
-    <script src="assets/js/jquery.min.js"></script>
-    <!-- Bootstrap JS -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- Countdown Js -->
-    <script src="assets/js/jquery.countdown.min.js"></script>
-    <!-- Smooth scroll JS -->   
-    <script src="assets/js/smooth-scroll.js"></script>        
-    <!-- Wow Scroll -->
-    <script src="assets/js/wow.js"></script>
-    <!-- Owl carousel -->
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <!-- Slicknav js -->
-    <script src="assets/js/jquery.slicknav.js"></script>
-    <!--  Nivo lightbox Js -->
-    <script src="assets/js/nivo-lightbox.js"></script>   
-    <!-- Contact Form Scripts -->
-    <script src="assets/js/form-validator.min.js"></script>  
-    <script src="assets/js/contact-form-script.js"></script>    
- 
-    <!-- All Js plugin -->
-    <script src="assets/js/main.js"></script> 
-    <!-- Map JS -->
-    <script type="text/javascript" src="assets/js/jquery.mapit.min.js"></script>
-    <script src="assets/js/initializers.js"></script>
-
-  </body>
-</html>

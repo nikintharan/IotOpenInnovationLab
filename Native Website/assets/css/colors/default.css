@@ -27,7 +27,7 @@ a:hover{
   background: #333;
 }
 .slicknav_menu .slicknav_btn:hover{
-  background: #fff;
+  background: #333;
 }
 .slicknav_nav .active a{
   background: #333;
@@ -41,37 +41,8 @@ a:hover{
 .navbar-default .navbar-toggle .icon-bar{
   background: #333;
 }
-.navbar-event .navbar-nav li a:hover,
-.navbar-event .navbar-nav li .active > a,
-.navbar-event .navbar-nav li a:focus {
-  color: #333;
-}
-.navbar-event .dropdown .dropdown-menu {
-  border-color: #E91E63;
-}
-.navbar-event .dropdown .dropdown-menu > li > a:hover,
-.navbar-event .dropdown .dropdown-menu > li > a .active {
-  color: #333;
-}
-.navbar-event .dropdown .dropdown-menu > li.active > a {
-  background: #333 !important;
-  color: #fff;
-}
-.navbar-event .navbar-nav > .active > a,
-.navbar-event .navbar-nav > .active > a:focus,
-.navbar-event .navbar-nav > .active > a:hover {
-  background: #333 !important;
-  color: #fff;
-}
-.navbar-event .navbar-nav > .open > a,
-.navbar-event .navbar-nav > .open > a:focus,
-.navbar-event .navbar-nav > .open > a:hover {
-  color: #333;
-}
-.navbar-event .navbar-nav > .active > a, 
-.navbar-event .navbar-nav > .active > a:hover{
-  color: #fff;
-}
+
+
 /* Countdown */
 .countdown-timer .text h4{
   color: #333;
