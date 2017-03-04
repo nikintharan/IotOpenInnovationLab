@@ -50,7 +50,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.php"><img src="assets/img/logo1.png" alt=""></a>
+              <a class="navbar-brand logo-bright" href="index.php"><img src="assets/img/logo-bright.png" alt=""></a>
+              <a class="navbar-brand logo-dark" href="index.php"><img src="assets/img/logo-dark.png" alt=""></a>
             </div>
             
             <div class="collapse navbar-collapse" id="navbar">

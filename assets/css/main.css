@@ -445,7 +445,32 @@ color: #000;
     position: absolute;
     width: 100%;
 }
+
+#header-wrap .logo-bright
+{
+  display: none;
 }
+
+#header-wrap .affix-top .logo-bright
+{
+  display: none;
+}
+
+#header-wrap .affix .logo-dark
+{
+  display: none;
+}
+
+#header-wrap .affix .logo-bright
+{
+  display: block;
+}
+
+#header-wrap .affix-top .logo-dark
+{
+  display: block;
+}
+
 
 .navbar-nav .cd-signin .fa
 {
