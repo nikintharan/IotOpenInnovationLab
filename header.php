@@ -70,7 +70,7 @@
                 <li class="login-btn"><a class="cd-signin" href="#"">Sign in<i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
                 <?php } ?>
               </ul>
-            </div><!-- /navbar-collapse -->
+            </div><!-- /naƒvbar-collapse -->
           </div><!-- /container -->
 
           <!-- Mobile Menu Start -->
@@ -93,7 +93,7 @@
     <div class="cd-user-modal-container"> <!-- this is the container wrapper -->
       <ul class="cd-switcher">
         <li><a href="#0">Sign in</a></li>
-        <li><a href="#0">New account</a></li>
+        <li><a href="#0">Registration</a></li>
       </ul>
 
       <div id="cd-login"> <!-- log in form -->
@@ -145,7 +145,25 @@
             <!-- <a href="#0" class="hide-password">Hide</a>
             <span class="cd-error-message">Error message here!</span> -->
           </p>
-
+          
+          <p class="fieldset">
+           <div class="form-group">
+              <select class="form-control" id="selectStatus">
+                <option>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspStatus at Northeastern</option>
+                <option>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspStudent</option>
+                <option>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspStaff</option>
+                <option>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFaculty</option>
+                <option>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAlumni</option>
+                <option>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspN/A</option>
+              </select>
+            </div>
+          </p>
+          
+          <p class="fieldset">
+            <label class="image-replace cd-linkedin" for="signup-linkedin">LinkedIn URL</label>
+            <input class="full-width has-padding has-border" id="signup-linkedin" placeholder="LinkedIn URL">
+          </p>
+          
           <p class="fieldset">
             <input type="checkbox" id="accept-terms" data-validation="required">
             <label for="accept-terms">By signing up you agree to the <a href="#0">Terms and Conditions</a></label>
