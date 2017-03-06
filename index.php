@@ -17,7 +17,7 @@
             
             <div class="carousel-caption">
               <h2 class="wow fadeInRight" data-wow-delay="300ms">Ideation Contest<br> Join us be The First to Book Your Ticket</h2>
-              <div class="buttons wow fadeInDown" data-wow-delay="0.2s"><a class="btn btn-lg btn-border" href="./header.php">Registration</a></div>
+              <div class="buttons wow fadeInDown" data-wow-delay="0.2s"><a class="btn btn-lg btn-border cd-signup" href="#">Registration</a></div>
               <a data-scroll href="#countdown-timer-landing">
               <div class="rev-scroll-btn wow fadeInUp" data-wow-delay="600ms">
                 <span></span>

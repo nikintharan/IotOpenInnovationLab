@@ -147,16 +147,14 @@
           </p>
           
           <p class="fieldset">
-           <div class="form-group">
-              <select class="form-control" id="selectStatus">
-                <option>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspStatus at Northeastern</option>
-                <option>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspStudent</option>
-                <option>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspStaff</option>
-                <option>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFaculty</option>
-                <option>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAlumni</option>
-                <option>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspN/A</option>
+              <select class="full-width has-padding has-border" data-validation="required" id="selectStatus">
+                <option value="" disabled selected hidden>Status at Northeastern</option>
+                <option value="student">Student</option>
+                <option value="staff">Staff</option>
+                <option value="faculty">Faculty</option>
+                <option value="alumni">Alumni</option>
+                <option value="other">Other</option>
               </select>
-            </div>
           </p>
           
           <p class="fieldset">
