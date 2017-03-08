@@ -36,9 +36,9 @@
 
     <?php if($activePage == 'index')
     { ?>
-    <script src="/assets/js/index.js"></script>
-    <script src="assets/js/signin.js"></script>
-
+    <script src="assets/js/index.js"></script>
+<!--     <script src="assets/js/signin.js"></script>
+ -->
     <?php } ?>
 
      <?php if($activePage != 'index')

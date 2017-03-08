@@ -5,7 +5,7 @@
       <div class="container"> 
         <div class="page-header-inner">         
           <ol class="breadcrumb wow fadeInDown" data-wow-delay="300ms">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li class="page">Start</li>
           </ol>
           <h1 class="page-title wow fadeInRight" data-wow-delay="300ms">
