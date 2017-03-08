@@ -46,7 +46,7 @@ $(".logout").on("click",function(){
     // Handle the successful return from the API call
     function onSuccess(data) {
         console.log(data);
-        document.location.href="/iot/workspace.php";
+        document.location.href="/iot/dashboard.php";
     }
 
     // Handle an error response from the API call
