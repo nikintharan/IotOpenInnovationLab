@@ -1,5 +1,6 @@
 <?php include ('header.php');?>
 
+
     <!-- Main Slider Section Start -->
 <div id="carousel-area">
       
@@ -15,11 +16,24 @@
             <div class="carousel-caption">
               <h2 class="wow fadeInRight" data-wow-delay="300ms">Ideation Contest<br> Let's create the future!</h2>
               <br> 
-              <div class="buttons wow fadeInDown" data-wow-delay="0.2s"><a class="btn btn-lg btn-border cd-signup" href="#">Get Started</a> <a class="btn cd-workspace" href="#">My Workspace</a>  <a class="btn cd-learn" href="./about.php">Learn More ></a></div>
+              <div class="buttons wow fadeInDown" data-wow-delay="0.2s">
+              <script type="in/Login"></script>
+              <a class="logout" href="#">Logout</a>
+              <!-- <a class="btn btn-lg btn-border cd-signup" href="#">Get Started</a> 
+              <a class="btn cd-workspace" href="#">My Workspace</a>  <a class="btn cd-learn" href="./about.php">Learn More ></a> --></div>
               
               </div>
               </a>
             </div>
           </div>
-          
+
+
+
+
+
     <?php include ('footer.php');?>
+<script type="text/javascript" src="//platform.linkedin.com/in.js">
+    api_key: 77lpqeh3bb98vi
+    authorize: true
+    onLoad: onLinkedInLoad
+</script>
