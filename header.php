@@ -59,6 +59,7 @@
               <li class="<?= ($activePage == 'index') ? 'active':''; ?>"><a href="index.php">Home</a></li>  
                 <li class="<?= ($activePage == 'start') ? 'active':''; ?>"><a href="start.php">Start</a></li>
                 <li class="<?= ($activePage == 'about') ? 'active':''; ?>"><a href="about.php">About</a></li>
+                <li class="<?= ($activePage == 'corporate') ? 'active':''; ?>"><a href="corporate.php">Corporate</a></li>
                 <?php  if (isset($_COOKIE["username"])){ 
                         $firstname = substr($_COOKIE["username"], 0, strpos($_COOKIE["username"], ' '));
                       ?> 
@@ -77,7 +78,8 @@
           <ul class="wpb-mobile-menu">
               <li class="active"><a href="index.php">Home</a></li>
               <li><a href="start.php">Start</a></li>
-              <li><a href="about.php">About</a></li>  
+              <li><a href="about.php">About</a></li>
+              <li><a href="corporate.php">Corporate</a></li>
            </ul>
           <!-- Mobile Menu End -->
 
@@ -147,14 +149,16 @@
           </p>
           
           <p class="fieldset">
-              <select class="full-width has-padding has-border" data-validation="required" id="selectStatus">
-                <option value="" disabled selected hidden>Status at Northeastern</option>
-                <option value="student">Student</option>
-                <option value="staff">Staff</option>
-                <option value="faculty">Faculty</option>
-                <option value="alumni">Alumni</option>
-                <option value="other">Other</option>
+           <div class="form-group">
+              <select class="form-control" id="selectStatus">
+                <option>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspStatus at Northeastern</option>
+                <option>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspStudent</option>
+                <option>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspStaff</option>
+                <option>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFaculty</option>
+                <option>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAlumni</option>
+                <option>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspN/A</option>
               </select>
+            </div>
           </p>
           
           <p class="fieldset">

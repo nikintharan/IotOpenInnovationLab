@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -28,13 +28,15 @@
     
 	<script type="text/javascript" src="http://code.angularjs.org/1.2.25/angular.min.js"></script>
     <script type="text/javascript" src="https://s3.amazonaws.com/iotworkspace/js/modules/promise-tracker.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.js"></script>
     <script src="https://cdn.firebase.com/libs/firepad/1.4.0/firepad.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js"></script>
+
     <script type="text/javascript" src="https://s3.amazonaws.com/iotworkspace/js/app.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.css">
     <link rel="stylesheet" href="https://cdn.firebase.com/libs/firepad/1.4.0/firepad.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    
     <style>
       .powered-by-firepad {
           visibility: hidden;
@@ -48,7 +50,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body  onload="init()">
 
   <?php include ('header.php');?>
 
@@ -67,6 +68,7 @@
       </div>
     </div>
     <!-- Page Header End-->
+  <body  onload="init()">
 
       <!-- Start Content -->
       <section id="content" class="section" >
