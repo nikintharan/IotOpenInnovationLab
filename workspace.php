@@ -34,17 +34,6 @@
                 <div class="col-md-10">
                     <!-- Start Single Post Area -->
                     <div class="blog-post single-gallery">
-                        <!-- Post feature-inner -->
-                        <div class="feature-inner">
-                            <a class="lightbox" href="assets/img/blog/bloglarge-1.jpg"><img src="assets/img/blog/bloglarge-1.jpg" alt=""></a>
-                        </div>
-                        <!-- End Post feature-inner -->
-                        <!-- Post format icon -->
-                        <div class="post-format">
-                            <span>
-                                <a href="#"><i class="icon-picture"></i></a>
-                            </span>
-                        </div>
                         <!-- Post Content -->
                         <div class="post-content">
                             <h1 class="post-title" align="center">Ideation Contest Form</h1>
