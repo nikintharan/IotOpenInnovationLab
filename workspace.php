@@ -21,6 +21,16 @@
       <section id="content" class="section" >
         <div class="container">
             <div class="row">
+                <div class="col-md-2">
+		  	<div class="sidebar content-box" style="display: block;">
+                <ul class="nav">
+                    <!-- Main menu -->
+                    <li><a href="dashboard.php"><i class="glyphicon glyphicon-home"></i> Dashboard</a></li>
+                    <li  class="current"><a href="workspace.php"><i class="glyphicon glyphicon-pencil"></i> Workspace</a></li>
+
+                </ul>
+             </div>
+		  </div>
                 <div class="col-md-10">
                     <!-- Start Single Post Area -->
                     <div class="blog-post single-gallery">

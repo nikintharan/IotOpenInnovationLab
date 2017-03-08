@@ -1,4 +1,4 @@
-﻿<?php include ('header.php');?>
+<?php include ('header.php');?>
 
     <!-- Page Header Start -->
     <div class="page-header">      
