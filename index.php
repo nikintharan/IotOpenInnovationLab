@@ -16,11 +16,10 @@
             
             
             <div class="carousel-caption">
-              <h2 class="wow fadeInRight" data-wow-delay="300ms">Ideation Contest<br> Join us be The First to Book Your Ticket</h2>
-              <div class="buttons wow fadeInDown" data-wow-delay="0.2s"><a class="btn btn-lg btn-border cd-signup" href="#">Registration</a></div>
-              <a data-scroll href="#countdown-timer-landing">
-              <div class="rev-scroll-btn wow fadeInUp" data-wow-delay="600ms">
-                <span></span>
+              <h2 class="wow fadeInRight" data-wow-delay="300ms">Ideation Contest<br> Let's create the future!</h2>
+              <br> 
+              <div class="buttons wow fadeInDown" data-wow-delay="0.2s"><a class="btn btn-lg btn-border cd-signup" href="#">Get Started</a> <a class="btn cd-workspace" href="#">My Workspace</a>  <a class="btn cd-learn" href="./about.php">Learn More ></a></div>
+              
               </div>
               </a>
             </div>
@@ -65,7 +64,7 @@
     <!-- Main Slider Section End -->
 
     <!-- Coundown Section Start -->
-    <section class="countdown-timer section" id="countdown-timer-landing">
+    <!--<section class="countdown-timer section" id="countdown-timer-landing">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.2s">
@@ -82,10 +81,10 @@
         </div>
       </div>
     </section>
-    <!-- Coundown Section End -->
+    <!-- Coundown Section End --> 
 
     <!-- Welocme Event Start -->
-    <section id="event" class="section">
+    <!--<section id="event" class="section">
       <div class="container">
         <div class="row">
           <div class="col-md-3 col-sm-6 col-xs-12">
@@ -143,10 +142,10 @@
         </div>
       </div>
     </section>
-    <!-- Welocme Event End -->
+    <!-- Welocme Event End --> 
 
     <!-- Featured Section Start -->
-    <section id="featured" class="section">
+    <!-- <section id="featured" class="section">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
