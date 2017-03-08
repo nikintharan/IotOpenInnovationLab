@@ -30,13 +30,14 @@
     <script src="assets/js/smooth-scroll.js"></script>        
     <!-- Wow Scroll -->
     <script src="assets/js/wow.js"></script>
-    <script src="assets/js/signin.js"></script>
 
-    <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js"></script>
 
     <?php if($activePage == 'index')
     { ?>
-    <script src="assets/js/index.js"></script> 
+    <script src="/assets/js/index.js"></script>
+    <script src="assets/js/signin.js"></script>
 
     <?php } ?>
 
@@ -52,7 +53,21 @@
     <script src="assets/js/jquery.slicknav.js"></script>
     <!--  Nivo lightbox Js -->
     <script src="assets/js/nivo-lightbox.js"></script>   
-    <?php } ?>
+    <?php } 
+
+    if($activePage == 'workspace')
+    { ?>
+    
+    <script type="text/javascript" src="http://code.angularjs.org/1.2.25/angular.min.js"></script>
+    <script type="text/javascript" src="https://s3.amazonaws.com/iotworkspace/js/modules/promise-tracker.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.js"></script>
+    <script type="text/javascript" src="https://s3.amazonaws.com/iotworkspace/js/app.js"></script>
+    <script src="https://cdn.firebase.com/libs/firepad/1.4.0/firepad.min.js"></script>
+    <script type="text/javascript" src="https://s3.amazonaws.com/iotworkspace/js/app.js"></script>
+    <script src="assets/js/workspace.js"></script> 
+
+
+    <?php } ?> 
 
   </body>
 </html>

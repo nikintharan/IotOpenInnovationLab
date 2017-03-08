@@ -2445,3 +2445,8 @@ blockquote .quote-text {
   box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.14);
   outline: none;
 }
+
+
+.powered-by-firepad {
+  display: none !important;
+}
