@@ -30,6 +30,7 @@
     <script src="assets/js/smooth-scroll.js"></script>        
     <!-- Wow Scroll -->
     <script src="assets/js/wow.js"></script>
+    <script src="assets/js/signin.js"></script>
 
 
     <script src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js"></script>
@@ -37,14 +38,14 @@
     <?php if($activePage == 'index')
     { ?>
     <script src="assets/js/index.js"></script>
-<!--     <script src="assets/js/signin.js"></script>
- -->
+    
+
     <?php } ?>
 
      <?php if($activePage != 'index')
     { ?>
 
-     <script src="assets/js/main.js"></script> 
+
     <!-- Owl carousel -->
     <script src="assets/js/jquery.countdown.min.js"></script>
 
@@ -53,6 +54,7 @@
     <script src="assets/js/jquery.slicknav.js"></script>
     <!--  Nivo lightbox Js -->
     <script src="assets/js/nivo-lightbox.js"></script>   
+         <script src="assets/js/main.js"></script> 
     <?php } 
 
     if($activePage == 'workspace')
@@ -68,6 +70,12 @@
 
 
     <?php } ?> 
+
+    <script type="text/javascript" src="//platform.linkedin.com/in.js">
+    api_key: 77lpqeh3bb98vi
+    authorize: true
+    onLoad: onLinkedInLoad
+</script>
 
   </body>
 </html>

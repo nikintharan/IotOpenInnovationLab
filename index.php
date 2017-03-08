@@ -32,8 +32,3 @@
 
 
     <?php include ('footer.php');?>
-<script type="text/javascript" src="//platform.linkedin.com/in.js">
-    api_key: 77lpqeh3bb98vi
-    authorize: true
-    onLoad: onLinkedInLoad
-</script>
