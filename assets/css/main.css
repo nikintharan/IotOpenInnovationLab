@@ -241,21 +241,13 @@ fieldset[disabled] .btn {
 }
 .page-header .breadcrumb li {
   line-height: 25px;
-<<<<<<< HEAD
-  color: white;
-=======
   color: #333;
->>>>>>> f43a07fce6ca091f5331d66c61154c201ecbd913
 }
 .page-header .breadcrumb li a {
   color: #fff;
 }
 .page-header .breadcrumb li a:hover {
-<<<<<<< HEAD
-  color: #ADADAD;
-=======
   color: #333;
->>>>>>> f43a07fce6ca091f5331d66c61154c201ecbd913
 }
 /* ==========================================================================
    Navigation Main Menu
@@ -2018,6 +2010,8 @@ footer ul li a {
   margin-bottom: 40px;
   overflow: hidden;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 10px;
 }
 .blog-post .post-content {
   float: none;
@@ -2476,4 +2470,16 @@ blockquote .quote-text {
 .form-control:focus {
   box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.14);
   outline: none;
+}
+
+
+.powered-by-firepad {
+  display: none !important;
+}
+
+.linkedIn
+{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+
 }
