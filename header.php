@@ -59,6 +59,7 @@
               <li class="<?= ($activePage == 'index') ? 'active':''; ?>"><a href="index.php">Home</a></li>  
                 <li class="<?= ($activePage == 'start') ? 'active':''; ?>"><a href="start.php">Start</a></li>
                 <li class="<?= ($activePage == 'about') ? 'active':''; ?>"><a href="about.php">About</a></li>
+                <li class="<?= ($activePage == 'corporate') ? 'active':''; ?>"><a href="corporate.php">Corporate</a></li>
                 <?php  if (isset($_COOKIE["username"])){ 
                         $firstname = substr($_COOKIE["username"], 0, strpos($_COOKIE["username"], ' '));
                       ?> 
@@ -78,6 +79,7 @@
               <li class="active"><a href="index.php">Home</a></li>
               <li><a href="start.php">Start</a></li>
               <li><a href="about.php">About</a></li>  
+              <li><a href="corporate.php">Corporate</a></li>  
            </ul>
           <!-- Mobile Menu End -->
 
