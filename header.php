@@ -73,20 +73,13 @@
             
             <div class="collapse navbar-collapse" id="navbar">
               <ul class="nav navbar-nav navbar-right">
-              <li class="<?= ($activePage == 'index') ? 'active':''; ?>"><a href="index.php">Home</a></li>  
-                <li class="<?= ($activePage == 'start') ? 'active':''; ?>"><a href="start.php">Start</a></li>
-                <li class="<?= ($activePage == 'about') ? 'active':''; ?>"><a href="about.php">About</a></li>
-                <li class="logout-btn"><a class="cd-signout" href="#"">Log Out<i class="fa fa-lg fa-sign-out" aria-hidden="true"></i></a></li>
-
+                <li class="logout-btn"><a class="cd-signout" href="#">Log Out<i class="fa fa-lg fa-sign-out" aria-hidden="true"></i></a></li>
               </ul>
             </div><!-- /naƒvbar-collapse -->
           </div><!-- /container -->
 
           <!-- Mobile Menu Start -->
           <ul class="wpb-mobile-menu">
-              <li class="active"><a href="index.php">Home</a></li>
-              <li><a href="start.php">Start</a></li>
-              <li><a href="about.php">About</a></li>  
            </ul>
           <!-- Mobile Menu End -->
 
