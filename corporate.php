@@ -1,7 +1,7 @@
 <?php include ('header.php');?>
 
     <!-- Page Header Start -->
-    <div class="page-header">      
+    <div class="page-header corporate">
       <div class="container"> 
         <div class="page-header-inner">         
           <ol class="breadcrumb wow fadeInDown" data-wow-delay="300ms">
