@@ -1543,7 +1543,6 @@ h1 {
   -moz-transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
   -o-transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
   transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
-  color: orange;
 }
 
 .pricing-table .table-icon i {
