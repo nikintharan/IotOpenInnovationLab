@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   
     <title>IoT Open Innovation Lab</title>
-
+    <?php include_once("analyticstracking.php") ?>
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >    
     <!-- Main Style -->
@@ -50,6 +50,7 @@
     <![endif]-->
   </head>
   <body>
+
  <!-- Header Area wrapper Starts -->
     <header id="header-wrap">
 
