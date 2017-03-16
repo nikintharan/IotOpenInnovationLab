@@ -19,6 +19,8 @@
 
     <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 
+    <link rel="stylesheet" type="text/css" href="assets/fonts/simple-line-icons.css"> 
+
 
     <link href="assets/css/styles.css" rel="stylesheet">
 
@@ -27,7 +29,6 @@
     <?php if($activePage != 'index')
     { ?>
     <!-- Icon -->
-    <link rel="stylesheet" type="text/css" href="assets/fonts/simple-line-icons.css"> 
     <!-- Slicknav -->
     <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
     <!-- Nivo Lightbox -->
