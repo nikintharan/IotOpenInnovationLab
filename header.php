@@ -43,12 +43,18 @@
   
     <?php } ?>
 
-
     
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <!-- Linkedin Signin initialize -->
+    <script type="text/javascript" src="//platform.linkedin.com/in.js">
+        api_key: 77lpqeh3bb98vi
+        authorize: true
+        onLoad: onLinkedInLoad
+    </script>
   </head>
   <body>
 
@@ -73,7 +79,9 @@
             
             <div class="collapse navbar-collapse" id="navbar">
               <ul class="nav navbar-nav navbar-right">
-                <li class="logout-btn"><a class="cd-signout" href="#">Log Out<i class="fa fa-lg fa-sign-out" aria-hidden="true"></i></a></li>
+                <div>
+                <li id="linkedinLogout" class="logout-btn"><a class="cd-signout" href="javascript:;" onclick="closeSession()">Log Out<i class="fa fa-lg fa-sign-out" aria-hidden="true"></i></a></li>
+                </div>
               </ul>
             </div><!-- /naƒvbar-collapse -->
           </div><!-- /container -->
