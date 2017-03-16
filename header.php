@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   
     <title>IoT Open Innovation Lab</title>
-
+    <?php include_once("analyticstracking.php") ?>
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >    
     <!-- Main Style -->
@@ -18,6 +18,7 @@
     <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome.min.css">
 
     <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
 
     <link href="assets/css/styles.css" rel="stylesheet">
 
@@ -50,8 +51,7 @@
     <![endif]-->
   </head>
   <body>
-<?php if($activePage != 'index')
-    { ?>
+
  <!-- Header Area wrapper Starts -->
     <header id="header-wrap">
 
@@ -89,5 +89,3 @@
 
     </header>
     <!-- Header Area wrapper End -->
-
-    <?php }?>
