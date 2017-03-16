@@ -1,4 +1,19 @@
 <?php include ('header.php');?>
+    <!-- Abhinav Modal -->
+    <div class="modal fade" id="meetAbhinav" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <h4 class="modal-title" id="myModalLabel">Meet Abhinav</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-circle" class="img-circle" style="display: block;margin-left: auto;margin-right: auto;" src="../assets/img/abhinav.jpg">
+            <h5>Abhinav, you might want to write this.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Page Header Start -->
     <div class="page-header">      
@@ -56,7 +71,9 @@
                     <p>Looking for candidates with a background in IoT? By partnering with the Open Innovation Lab you can get access to students
                     with a passion and interest in the field.</p>
                   </div>
-                  <a href="#" class="btn btn-common btn-small">Read More</a>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#meetAbhinav">
+                   Read More
+                  </button>
                 </div>
               </div>
           </div>
@@ -70,29 +87,28 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2 class="section-title2 wow fadeInUp" data-wow-delay="0s">Coming March 27</h2>
+            <h2 class="section-title2 wow fadeInUp" data-wow-delay="0s">The Open Innovation Platform</h2>
           </div>   
           <div class="col-md-6 col-sm-6">
             <div class="featured-box2 wow fadeInLeft" data-wow-delay="0.1s">
               <div class="featured-content">
-                <h4>300 people</h4>
+                <h4>Monitor and learn from collaboration</h4>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-sm-6">
             <div class="featured-box2 wow fadeInLeft" data-wow-delay="0.2s">
               <div class="featured-content">
-                <h4>$5,000 prize pool</h4>
+                <h4>Teach and help create IoT</h4>
               </div>
             </div>
           </div>
           <div class="col-md-12">
             <div class="featured-box2 wow fadeInLeft" data-wow-delay="0.2s">
               <div class="featured-content">
-                <h3>In the next few weeks the very first competition run by 
-                the Open Innovation Lab will be launched. With this launch 
-                will also come the release of our proprietary platform designed 
-                to encourage and study collaboration. The initial topic will be ||||||||.</h3>
+                <h3>The Open Innovation Lab platform will be revoluationary for how we understand collaboration. Our custom learning platform
+                will allow us to teach IoT and learn from groups participating in our competitions. Over time, we will have the go to platform
+                for all IoT resources and a strong understanding of the ideal groups and collaboration necessary for the next great idea.</h3>
               </div>
             </div>
           </div>
@@ -117,8 +133,8 @@
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="spnsors-logo wow fadeInUp" data-wow-delay="0.3s">
-                        <a href="#"><img src="assets/img/sponsors/logo-03.png" alt="">
-                        <p>NUCE - Need image here</p>
+                        <a href="#"><img class="img-circle" src="assets/img/sponsors/nuce.jpg" alt="">
+                        <p>NUCE</p>
                         </a>
                     </div>
                 </div>
