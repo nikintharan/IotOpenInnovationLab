@@ -1457,7 +1457,6 @@ h1 {
 .crowd-bg {
   background: url(../img/background/bg-1.jpg);
   background-size: cover;
-  
 }
 
 /* ==========================================================================
@@ -1546,13 +1545,14 @@ h1 {
   transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
 }
 
-.pricing-table .table-icon i {
-  font-size: 44px;
-  width: 70px;
-  height: 30px;
+.table-icon {
   padding: 10px;
-  border-radius: 50%;
+  padding: 10px;
   color: #333;
+}
+
+.plan-info i {
+  padding-right: 5px;
 }
 .pricing-table h3 {
   font-size: 24px;
@@ -1562,7 +1562,7 @@ h1 {
 .pricing-table .plan-info {
   margin-top: 15px;
 }
-.pricing-table .plan-info li {
+.plan-info li {
   font-size: 16px;
   line-height: 32px;
 }

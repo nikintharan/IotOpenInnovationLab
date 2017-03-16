@@ -23,54 +23,60 @@
     <!-- Coundown Section End -->
           
           
-      <section id="pricing" class="section">
+      <!-- Get Involved Section Start -->
+    <section id="featured" class="section gray-bg">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2 class="section-title wow fadeInUp" data-wow-delay="0s">Enabling Game Changing Ideas</h2>
-            <p class="section-subcontent wow fadeInUp" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. A <br> enean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-          </div>
-          
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="pricing-table wow fadeInLeft" data-wow-delay="0.3s">
-              <div class="table-icon">
-                <img src='/assets/img/icons/contest.png' width='64px' height='auto'>
+            <h2 class="section-title wow fadeInUp" data-wow-delay="0s">Enabling Game Changing Ideas<br></h2>
+              <div class="col-md-4 col-sm-6">
+                <div class="featured-box wow fadeInLeft" data-wow-delay="0.1s">
+                  <div class="table-icon">
+                    <img src='/assets/img/icons/contest.png' width='64px' height='auto'>
+                  </div>                  
+                  <div class="featured-content">
+                    <h3>Contests</h3>
+                    <ul class="plan-info">
+                      <li><br><i class="icon-check"></i>Participate in ideation, design, and development contests</li>
+                      <li><br><i class='icon-check'></i>$30,000 in prize money</li>
+                      <li><br><i class='icon-check'></i>Work with motivated people on interesting projects</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <h3>Contests</h3>
-              <ul class="plan-info">
-                <li><i class="icon-check"></i>Participate in our ideation, <br>design, and development contests<br></li>        
-                <li><i class="icon-check"></i><br>$30,000 in prize money</li> 
-                <li><i class="icon-check"></i><br>Work with amazing people on interesting proejcts</li>             
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12 height-adjust">
-            <div class="pricing-table pricing-active wow fadeInDown" data-wow-delay="0.3s">
-              <div class="table-icon">
-                <img src='/assets/img/icons/funding.png' width='64px' height='auto'>
+              <div class="col-md-4 col-sm-6">
+                <div class="featured-box wow fadeInLeft" data-wow-delay="0.2s">
+                  <div class="table-icon">
+                    <img src='/assets/img/icons/resources.png' width='64px' height='auto'>
+                  </div>                  
+                  <div class="featured-content">
+                    <h3>TBD</h3>
+                    <ul class="plan-info">
+                      <li><br><i class="icon-check"></i>Lorem Ipsum one two three</li>
+                      <li><br><i class='icon-check'></i>Lorem Ipsum john doe </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <h3>Funding</h3>
-              <ul class="plan-info">
-                <li><i class="icon-check"></i>We'll provide you with the resources to grow your idea</li>             
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="pricing-table wow fadeInRight" data-wow-delay="0.3s">
-              <div class="table-icon">
-                <img src='/assets/img/icons/resources.png' width='64px' height='auto'>
+              <div class="col-md-4 col-sm-6">
+                <div class="featured-box wow fadeInLeft" data-wow-delay="0.3s">
+                  <div class="table-icon">
+                    <img src='/assets/img/icons/funding.png' width='64px' height='auto'>
+                  </div>
+                  <div class="featured-content">
+                    <h3>Resources</h3>
+                    <ul class="plan-info">
+                      <li><br><i class="icon-check"></i>Meet with Intellectual Property specialists</li>
+                      <li><br><i class='icon-check'></i>Connect with industry partners</li>
+                      <li><br><i class='icon-check'></i>We'll support you to maximize the impact of your ideas</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <h3>Resources</h3>
-              <ul class="plan-info">
-                <li><i class="icon-check"></i> Meet with Intellectual Property specialists</li>
-                <li><i class="icon-check"></i> <br>Connect with industry partners</li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Pricing Table Section End -->
-          
+    <!-- Get Involved Section End -->
 
     <?php include ('footer.php');?>
