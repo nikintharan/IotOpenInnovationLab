@@ -6,9 +6,12 @@
           <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.2s">
             <div class="text">
               <h2>IoT Open <br>Innovation <br>Lab</h2>
-              <h2 class='h3modifier'><br><br>Ideation Contest</h2>
+              <h2 class='h3modifier'><br>Ideation Contest</h2>
               <h4>March 27</h4>
-              <a href='javascript:;' onclick="liLogin()" class="btn btn-lg btn-common">Register with LinkedIn</a>
+            <div class='text-left' data-wow-delay=".2s">
+              <h5 style='color: white !important;'><br><br>Register with <br></h5>
+              <a href='javascript:;' onclick="liLogin()"><img src='assets/img/LinkedIn-2.png'></a>
+          </div>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="0.2s">
@@ -16,6 +19,7 @@
               <div id="clock" class="time-count"></div>
             </div> 
           </div>
+
         </div>
           </div>
       </div>
@@ -29,6 +33,7 @@
         <div class="row">
           <div class="col-md-12">
             <h2 class="section-title wow fadeInUp" data-wow-delay="0s">Enabling Game Changing Ideas<br></h2>
+              
               <div class="col-md-4 col-sm-6">
                 <div class="featured-box wow fadeInLeft" data-wow-delay="0.1s">
                   <div class="table-icon">
@@ -50,10 +55,11 @@
                     <img src='/assets/img/icons/resources.png' width='64px' height='auto'>
                   </div>                  
                   <div class="featured-content">
-                    <h3>TBD</h3>
+                    <h3>Industry Connections</h3>
                     <ul class="plan-info">
-                      <li><br><i class="icon-check"></i>Lorem Ipsum one two three</li>
-                      <li><br><i class='icon-check'></i>Lorem Ipsum john doe </li>
+                      <li><br><i class="icon-check"></i>Get matched with relevant hiring companies</li>
+                      <li><br><i class='icon-check'></i>Showcase work to corporate sponsors</li>
+                      <li><br><i class='icon-check'></i>Create solutions to real industry problem</li>
                     </ul>
                   </div>
                 </div>
@@ -78,5 +84,25 @@
       </div>
     </section>
     <!-- Get Involved Section End -->
+    
+    
+        <!-- Coming Soon Section Start -->
+    <section id="featured" class="section crowd-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title2 wow fadeInUp" data-wow-delay="0s">Sign Up via LinkedIn</h2>
+          </div>   
+          <div class="col-md-12 col-sm-6">
+            <div class="featured-box2 wow fadeInLeft" data-wow-delay="0.1s">
+              <div class="featured-content">
+                <a href='javascript:;' onclick="liLogin()"><img src='assets/img/LinkedIn-2.png'></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Coming Next Section End -->
 
     <?php include ('footer.php');?>
