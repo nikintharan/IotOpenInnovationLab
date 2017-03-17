@@ -45,10 +45,10 @@ a:hover{
 
 /* Countdown */
 .countdown-timer .text h4{
-  color: #333;
+  color: white;
 }
 .time-entry span{
-    color: #333;
+    color: white;
 }
 /* Event */
 #event .tab-block .icon i{

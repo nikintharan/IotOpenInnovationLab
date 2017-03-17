@@ -74,7 +74,7 @@
                     <ul class="plan-info">
                       <li><br><i class="icon-check"></i>Meet with Intellectual Property specialists</li>
                       <li><br><i class='icon-check'></i>Connect with industry partners</li>
-                      <li><br><i class='icon-check'></i>We'll support you to maximize the impact of your ideas</li>
+                      <li><br><i class='icon-check'></i>Get the support to maximize the impact of your ideas</li>
                     </ul>
                   </div>
                 </div>
