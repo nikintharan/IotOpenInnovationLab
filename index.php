@@ -9,7 +9,7 @@
               <h2 class='h3modifier'><br>Ideation Contest</h2>
               <h4>March 27</h4>
             <div class='text-left' data-wow-delay=".2s">
-              <h5 style='color: white !important;'><br><br>Register with <br></h5>
+              <h5 style='color: white !important;'><br><br>REGISTER WITH <br></h5>
               <a href='javascript:;' onclick="liLogin()"><img src='assets/img/LinkedIn-2.png'></a>
           </div>
             </div>
@@ -17,28 +17,26 @@
           <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="0.2s">
             <div class="time-countdown">
               <div id="clock" class="time-count"></div>
-            </div> 
+            </div>
           </div>
-
         </div>
-          </div>
       </div>
-    </section>
+    </div>
+  </section>
     <!-- Coundown Section End -->
-          
-          
+
       <!-- Get Involved Section Start -->
     <section id="featured" class="section gray-bg">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <h2 class="section-title wow fadeInUp" data-wow-delay="0s">Enabling Game Changing Ideas<br></h2>
-              
+
               <div class="col-md-4 col-sm-6">
                 <div class="featured-box wow fadeInLeft" data-wow-delay="0.1s">
                   <div class="table-icon">
                     <img src='/assets/img/icons/contest.png' width='64px' height='auto'>
-                  </div>                  
+                  </div>
                   <div class="featured-content">
                     <h3>Contests</h3>
                     <ul class="plan-info">
@@ -53,7 +51,7 @@
                 <div class="featured-box wow fadeInLeft" data-wow-delay="0.2s">
                   <div class="table-icon">
                     <img src='/assets/img/icons/resources.png' width='64px' height='auto'>
-                  </div>                  
+                  </div>
                   <div class="featured-content">
                     <h3>Industry Connections</h3>
                     <ul class="plan-info">
@@ -84,15 +82,15 @@
       </div>
     </section>
     <!-- Get Involved Section End -->
-    
-    
+
+
         <!-- Coming Soon Section Start -->
     <section id="featured" class="section crowd-bg">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <h2 class="section-title2 wow fadeInUp" data-wow-delay="0s">Sign Up via LinkedIn</h2>
-          </div>   
+          </div>
           <div class="col-md-12 col-sm-6">
             <div class="featured-box2 wow fadeInLeft" data-wow-delay="0.1s">
               <div class="featured-content">
