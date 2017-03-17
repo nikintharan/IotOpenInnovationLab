@@ -824,6 +824,23 @@ color: #000;
 .time-countdown {
   margin-top: 275px;
 }
+
+.stream {
+  padding-top: 50px;
+}
+
+.stream-btn i {
+  padding-right: 10px;
+}
+
+.stream-btn {
+  background-color: #d61313;
+  color: white;
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+
 /* ==========================================================================
    Event location
    ========================================================================== */

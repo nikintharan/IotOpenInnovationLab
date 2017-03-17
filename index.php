@@ -19,13 +19,20 @@
               <div id="clock" class="time-count"></div>
             </div>
           </div>
+          <!--
+          <div class='col-md-6 wow fadeInRight stream text-center' data-wow-delay='0.2s'>
+            <button class='btn btn-common stream-btn'>
+              <i class='icon-social-youtube'></i> We're Live
+            </button>
+          </div>
+          -->
         </div>
       </div>
     </div>
   </section>
-    <!-- Coundown Section End -->
+  <!-- Coundown Section End -->
 
-      <!-- Get Involved Section Start -->
+    <!-- Get Involved Section Start -->
     <section id="featured" class="section gray-bg">
       <div class="container">
         <div class="row">
