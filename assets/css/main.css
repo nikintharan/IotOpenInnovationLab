@@ -950,6 +950,14 @@ color: #000;
   padding: 8px;
 }
 
+.about-iot-corporate p {
+  color: #D2D2D2;
+  padding: 15px;
+  background-color: rgba(255,255,255,.15);
+  font-size: 15px;
+}
+
+
 .featured-box .icon {
   padding: 15px;
 }

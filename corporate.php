@@ -105,10 +105,10 @@
           </div>
           <div class="col-md-12">
             <div class='col-md-1'></div>
-            <div class='col-md-9'>
+            <div class='col-md-10'>
               <div class="featured-box2 wow fadeInLeft" data-wow-delay="0.2s">
-                <div class="featured-content">
-                  <p style='color: lightgrey;'>The IoT Open Innovation Labs collaborative platform is a revolutionary 
+                <div class="featured-content about-iot-corporate">
+                  <p>The IoT Open Innovation Labs collaborative platform is a revolutionary 
                   tool enabling deep insight into how collaboration affects innovation. Our custom solutions allow us
                   guide interdiscplinary users through a complex development cycle, 
                   thereby enabling us to engage a whole university. Our unique analytics tools are 
