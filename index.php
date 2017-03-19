@@ -6,17 +6,12 @@
           <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.2s">
             <div class="text">
               <h2>IoT Open <br>Innovation <br>Lab</h2>
-              <h2 class='h3modifier'><br>Ideation Contest</h2>
-              <h4>March 27</h4>
-            <div class='text-left' data-wow-delay=".2s">
-              <h5 style='color: white !important;'><br><br>REGISTER WITH <br></h5>
-              <a href='javascript:;' onclick="liLogin()"><img src='assets/img/LinkedIn-2.png'></a>
-          </div>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="0.2s">
-            <div class="time-countdown">
-              <div id="clock" class="time-count"></div>
+            <div class='register-front text-center'>
+              <h2> Register with LinkedIn </h2>
+              <a href='javascript:;' onclick="liLogin()"><img src='assets/img/LinkedIn-2.png'></a>
             </div>
           </div>
           <!--
