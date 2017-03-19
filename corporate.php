@@ -71,8 +71,8 @@
                     <p>Looking for candidates with a background in IoT? By partnering with the Open Innovation Lab you can get access to students
                     with a passion and interest in the field.</p>
                   </div>
-                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#meetAbhinav">
-                   Read More
+                  <button type="button" class="btn btn-small btn-hire" data-toggle="modal" data-target="#meetAbhinav">
+                   Learn More
                   </button>
                 </div>
               </div>
@@ -92,30 +92,38 @@
           <div class="col-md-6 col-sm-6">
             <div class="featured-box2 wow fadeInLeft" data-wow-delay="0.1s">
               <div class="featured-content">
-                <h4>Monitor and learn from collaboration</h4>
+                <h4><i class='icon-check'></i>Monitor and learn from <br>collaboration</h4>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-sm-6">
             <div class="featured-box2 wow fadeInLeft" data-wow-delay="0.2s">
               <div class="featured-content">
-                <h4>Teach and help create IoT</h4>
+                <h4><i class='icon-check'></i>Teach and help create<br> IoT</h4>
               </div>
             </div>
           </div>
           <div class="col-md-12">
-            <div class="featured-box2 wow fadeInLeft" data-wow-delay="0.2s">
-              <div class="featured-content">
-                <h3>The Open Innovation Lab platform will be revoluationary for how we understand collaboration. Our custom learning platform
-                will allow us to teach IoT and learn from groups participating in our competitions. Over time, we will have the go to platform
-                for all IoT resources and a strong understanding of the ideal groups and collaboration necessary for the next great idea.</h3>
+            <div class='col-md-1'></div>
+            <div class='col-md-9'>
+              <div class="featured-box2 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="featured-content">
+                  <p style='color: lightgrey;'>The IoT Open Innovation Labs collaborative platform is a revolutionary 
+                  tool enabling deep insight into how collaboration affects innovation. Our custom solutions allow us
+                  guide interdiscplinary users through a complex development cycle, 
+                  thereby enabling us to engage a whole university. Our unique analytics tools are 
+                  allowing us to establish a strong understanding of the ideal conditions for 
+                  successful collaboration and innovation in team environments.</p>
+                </div>
               </div>
-            </div>
+            </div
           </div>
         </div>
       </div>
     </section>
     <!-- Coming Next Section End -->
+  
+    
 
      <!-- Sponsors Section Start -->
     <section id="sponsors" class="section">
@@ -140,8 +148,8 @@
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="spnsors-logo wow fadeInUp" data-wow-delay="0.4s">
-                        <a href="#"><img src="assets/img/sponsors/question-mark.png" alt="">
-                        <p>Possibly you! Click to get involved</p>
+                        <a href="#"><img src="assets/img/sponsors/plus.png" height='151px' width='auto' alt="">
+                        <p>Your organization here</p>
                         </a>
                     </div>
                 </div>
