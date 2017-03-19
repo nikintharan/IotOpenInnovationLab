@@ -10,8 +10,8 @@
           </div>
           <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="0.2s">
             <div class='register-front text-center'>
-              <h2> Register with LinkedIn </h2>
-              <a href='javascript:;' onclick="liLogin()"><img src='assets/img/LinkedIn-2.png'></a>
+              <h2> Register with</h2>
+              <a href='javascript:;' onclick="liLogin()"><img src='assets/img/LinkedIn-2.png' style='background-color: rgba(51,51,51,.75)!important' class='btn btn-common btn-lrg'></a>
             </div>
           </div>
           <!--
@@ -32,20 +32,15 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2 class="section-title wow fadeInUp" data-wow-delay="0s">Enabling Game Changing Ideas<br></h2>
+            <h2 class="section-title wow fadeInUp" data-wow-delay="0s">Lets create the future<br></h2>
 
               <div class="col-md-4 col-sm-6">
                 <div class="featured-box wow fadeInLeft" data-wow-delay="0.1s">
                   <div class="table-icon">
-                    <img src='/assets/img/icons/contest.png' width='64px' height='auto'>
+                    <img src='/assets/img/icons/calendar-clock.png' width='64px' height='auto'>
                   </div>
                   <div class="featured-content">
-                    <h3>Contests</h3>
-                    <ul class="plan-info">
-                      <li><br><i class="icon-check"></i>Participate in ideation, design, and development contests</li>
-                      <li><br><i class='icon-check'></i>$30,000 in prize money</li>
-                      <li><br><i class='icon-check'></i>Work with motivated people on interesting projects</li>
-                    </ul>
+                    <h3>Events</h3>
                   </div>
                 </div>
               </div>
@@ -56,11 +51,6 @@
                   </div>
                   <div class="featured-content">
                     <h3>Industry Connections</h3>
-                    <ul class="plan-info">
-                      <li><br><i class="icon-check"></i>Get matched with relevant hiring companies</li>
-                      <li><br><i class='icon-check'></i>Showcase work to corporate sponsors</li>
-                      <li><br><i class='icon-check'></i>Create solutions to real industry problem</li>
-                    </ul>
                   </div>
                 </div>
               </div>
@@ -71,14 +61,14 @@
                   </div>
                   <div class="featured-content">
                     <h3>Resources</h3>
-                    <ul class="plan-info">
-                      <li><br><i class="icon-check"></i>Meet with Intellectual Property specialists</li>
-                      <li><br><i class='icon-check'></i>Connect with industry partners</li>
-                      <li><br><i class='icon-check'></i>Get the support to maximize the impact of your ideas</li>
-                    </ul>
                   </div>
                 </div>
               </div>
+              <div class='text-center'>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam neque non 
+                venenatis convallis. Integer rutrum nec ipsum at tempus. Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit.  </p>
+              </div
           </div>
         </div>
       </div>
