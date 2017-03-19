@@ -14,6 +14,21 @@
         </div>
       </div>
     </div>
+    
+    <!-- Survey Modal -->
+    <div class="modal fade" id="survey" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog" style="width:790px;">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <h4 class="modal-title" id="myModalLabel">Get Involved</h4>
+          </div>
+          <div class="modal-body">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeWrTdZfc77NYNyCsNF29ztcTVuZt9mm0u72xHTpQ1h4ZpIrg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Page Header Start -->
     <div class="page-header corporate">
@@ -140,7 +155,7 @@
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="spnsors-logo wow fadeInUp" data-wow-delay="0.4s">
-                        <a href="#"><img src="assets/img/sponsors/question-mark.png" alt="">
+                        <a href='javascript:;' data-toggle="modal" data-target="#survey"><img src="assets/img/sponsors/plus.png" alt="">
                         <p>Possibly you! Click to get involved</p>
                         </a>
                     </div>

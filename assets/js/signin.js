@@ -17,8 +17,8 @@ var closeSession = function(){
 }
 
 var getProfileData = function() { // Use the API call wrapper to request the member's basic profile data
-    document.getElementById("linkedinLogout").style.visibility="visible";
     IN.API.Profile("me").fields("id,firstName,lastName,email-address,picture-urls::(original),public-profile-url,location:(name)").result(function (me) {
+        document.getElementById("linkedinLogout").style.visibility="visible";
         var profile = me.values[0];
         var id = profile.id;
         var firstName = profile.firstName;
