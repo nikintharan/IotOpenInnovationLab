@@ -65,18 +65,6 @@
                 </div>
               </div>
               <div class="col-md-4 col-sm-6">
-                <div class="featured-box wow fadeInLeft" data-wow-delay="0.2s">
-                  <div class="icon">
-                    <i class="icon-notebook"></i>
-                  </div>
-                  <div class="featured-content">
-                    <h4>Judge</h4>
-                    <p>We are constantly looking for proffessionals in the IoT industry to help judge our competitions! Not only is it
-                    a great way of getting involved with our lab, you will also get a first hand look at the current IoT innovation happening at Northeastern.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6">
                 <div class="featured-box wow fadeInLeft" data-wow-delay="0.3s">
                   <div class="icon">
                     <i class="icon-people"></i>
@@ -86,9 +74,21 @@
                     <p>Looking for candidates with a background in IoT? By partnering with the Open Innovation Lab you can get access to students
                     with a passion and interest in the field.</p>
                   </div>
-                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#meetAbhinav">
-                   Read More
+                  <button type="button" class="btn btn-small btn-hire" data-toggle="modal" data-target="#meetAbhinav">
+                   Learn More
                   </button>
+                </div>
+              </div>              
+              <div class="col-md-4 col-sm-6">
+                <div class="featured-box wow fadeInLeft" data-wow-delay="0.2s">
+                  <div class="icon">
+                    <i class="icon-notebook"></i>
+                  </div>
+                  <div class="featured-content">
+                    <h4>Judge</h4>
+                    <p>We are constantly looking for proffessionals in the IoT industry to help judge our competitions! Not only is it
+                    a great way of getting involved with our lab, you will also get a first hand look at the current IoT innovation happening at Northeastern.</p>
+                  </div>
                 </div>
               </div>
           </div>
@@ -106,31 +106,39 @@
           </div>   
           <div class="col-md-6 col-sm-6">
             <div class="featured-box2 wow fadeInLeft" data-wow-delay="0.1s">
-              <div class="featured-content">
-                <h4>Monitor and learn from collaboration</h4>
+              <div class="featured-content corp-tagline">
+                <h4><i class='icon-check'></i>Learn how to maximize innovation <br>in collaborative settings</h4>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-sm-6">
             <div class="featured-box2 wow fadeInLeft" data-wow-delay="0.2s">
-              <div class="featured-content">
-                <h4>Teach and help create IoT</h4>
+              <div class="featured-content corp-tagline">
+                <h4><i class='icon-check'></i>Interact with the next generation <br>of IoT talent</h4>
               </div>
             </div>
           </div>
           <div class="col-md-12">
-            <div class="featured-box2 wow fadeInLeft" data-wow-delay="0.2s">
-              <div class="featured-content">
-                <h3>The Open Innovation Lab platform will be revoluationary for how we understand collaboration. Our custom learning platform
-                will allow us to teach IoT and learn from groups participating in our competitions. Over time, we will have the go to platform
-                for all IoT resources and a strong understanding of the ideal groups and collaboration necessary for the next great idea.</h3>
+            <div class='col-md-1'></div>
+            <div class='col-md-10'>
+              <div class="featured-box2 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="featured-content about-iot-corporate">
+                  <p>The IoT Open Innovation Labs collaborative platform is a revolutionary 
+                  tool enabling deep insight into how collaboration affects innovation. Our custom solutions allow us
+                  guide interdiscplinary users through a complex development cycle, 
+                  thereby enabling us to engage a whole university. Our unique analytics tools are 
+                  allowing us to establish a strong understanding of the ideal conditions for 
+                  successful collaboration and innovation in team environments.</p>
+                </div>
               </div>
-            </div>
+            </div
           </div>
         </div>
       </div>
     </section>
     <!-- Coming Next Section End -->
+  
+    
 
      <!-- Sponsors Section Start -->
     <section id="sponsors" class="section">
