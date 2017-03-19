@@ -50,18 +50,6 @@
                 </div>
               </div>
               <div class="col-md-4 col-sm-6">
-                <div class="featured-box wow fadeInLeft" data-wow-delay="0.2s">
-                  <div class="icon">
-                    <i class="icon-notebook"></i>
-                  </div>
-                  <div class="featured-content">
-                    <h4>Judge</h4>
-                    <p>We are constantly looking for proffessionals in the IoT industry to help judge our competitions! Not only is it
-                    a great way of getting involved with our lab, you will also get a first hand look at the current IoT innovation happening at Northeastern.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6">
                 <div class="featured-box wow fadeInLeft" data-wow-delay="0.3s">
                   <div class="icon">
                     <i class="icon-people"></i>
@@ -74,6 +62,18 @@
                   <button type="button" class="btn btn-small btn-hire" data-toggle="modal" data-target="#meetAbhinav">
                    Learn More
                   </button>
+                </div>
+              </div>              
+              <div class="col-md-4 col-sm-6">
+                <div class="featured-box wow fadeInLeft" data-wow-delay="0.2s">
+                  <div class="icon">
+                    <i class="icon-notebook"></i>
+                  </div>
+                  <div class="featured-content">
+                    <h4>Judge</h4>
+                    <p>We are constantly looking for proffessionals in the IoT industry to help judge our competitions! Not only is it
+                    a great way of getting involved with our lab, you will also get a first hand look at the current IoT innovation happening at Northeastern.</p>
+                  </div>
                 </div>
               </div>
           </div>
@@ -91,15 +91,15 @@
           </div>   
           <div class="col-md-6 col-sm-6">
             <div class="featured-box2 wow fadeInLeft" data-wow-delay="0.1s">
-              <div class="featured-content">
-                <h4><i class='icon-check'></i>Monitor and learn from <br>collaboration</h4>
+              <div class="featured-content corp-tagline">
+                <h4><i class='icon-check'></i>Learn how to maximize innovation <br>in collaborative settings</h4>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-sm-6">
             <div class="featured-box2 wow fadeInLeft" data-wow-delay="0.2s">
-              <div class="featured-content">
-                <h4><i class='icon-check'></i>Teach and help create<br> IoT</h4>
+              <div class="featured-content corp-tagline">
+                <h4><i class='icon-check'></i>Interact with the next generation <br>of IoT talent</h4>
               </div>
             </div>
           </div>

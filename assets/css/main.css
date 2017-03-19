@@ -923,27 +923,25 @@ color: #000;
   background-color: #c4c4c4;
   color: black;
   border-color: grey;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 .btn-hire:hover {
   background-color: black;
   color: white;
-  border-color: grey;
-  margin-top: 5px;
 }
 
 .btn-hire:active {
   background-color: #c4c4c4;
   color: black;
-  border-color: grey;
-  margin-top: 5px;
 }
 .btn-hire:focus {
   background-color: #c4c4c4;
   color: black;
-  border-color: grey;
-  margin-top: 5px;
+}
+
+.corp-tagline {
+  line-height: 1.65px;
 }
 
 .featured-box2 i {
