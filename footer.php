@@ -1,4 +1,57 @@
+
+
+    <!-- Terms of Service Modal -->
+    <div class="modal fade" id="termsofservice" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <h4 class="modal-title" id="myModalLabel">Terms of Service</h4>
+          </div>
+          <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum eu turpis 
+            quis fermentum. Phasellus sapien dolor, iaculis ac hendrerit a, tristique at est. Ut 
+            tempus venenatis lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus 
+            ligula nibh, tempor a erat sed, malesuada eleifend risus. Morbi lacus magna, aliquam ac eros 
+            congue, finibus aliquet metus. In hac habitasse platea dictumst. Nunc fringilla nisi pretium, 
+            aliquam justo a, fermentum purus. Fusce aliquet nisi turpis, a aliquet turpis finibus quis. 
+            Mauris condimentum metus sed risus ultrices, a suscipit dui lacinia. 
+            Pellentesque non tincidunt tellus, vitae suscipit diam. Morbi 
+            porta lacus magna, a euismod ante ultrices at</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of TOS -->
+    
+    
+    <!-- Privacy Policy -->
+    <div class="modal fade" id="privacypolicy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <h4 class="modal-title" id="myModalLabel">Privacy Policy</h4>
+          </div>
+          <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum eu turpis 
+            quis fermentum. Phasellus sapien dolor, iaculis ac hendrerit a, tristique at est. Ut 
+            tempus venenatis lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus 
+            ligula nibh, tempor a erat sed, malesuada eleifend risus. Morbi lacus magna, aliquam ac eros 
+            congue, finibus aliquet metus. In hac habitasse platea dictumst. Nunc fringilla nisi pretium, 
+            aliquam justo a, fermentum purus. Fusce aliquet nisi turpis, a aliquet turpis finibus quis. 
+            Mauris condimentum metus sed risus ultrices, a suscipit dui lacinia. 
+            Pellentesque non tincidunt tellus, vitae suscipit diam. Morbi 
+            porta lacus magna, a euismod ante ultrices at<p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Privacy Policy -->
+    
+
     <!-- Copytight Start -->
+    
     <section id="copyright">
         <div class="container">
             <div class="row">
@@ -6,7 +59,8 @@
                     <p>&nbsp;</p>
                     <p style="color: white;">©&nbsp;2017 IoT Open Innovation Lab</p>
                     <p style="color: white;">Boston, MA </p>
-                    <p style="color: white;">Privacy Policy &nbsp;·&nbsp;Terms of Service</p>
+                    <p style="color: white;"><a style='color:white;' data-toggle='modal' data-target='#privacypolicy'>Privacy Policy</a>
+                    &nbsp;·&nbsp;<a style='color:white;' data-toggle='modal' data-target='#termsofservice'>Terms of Service</a></p>
                     <p>&nbsp;</p>
                 </div>
             </div>
@@ -19,6 +73,7 @@
     <i class="icon-arrow-up"></i>
     </a>
 
+
      
 
     <!-- jQuery Load -->    
@@ -30,8 +85,11 @@
     <script src="assets/js/smooth-scroll.js"></script>        
     <!-- Wow Scroll -->
     <script src="assets/js/wow.js"></script>
+    <!-- Signin Load -->
     <script src="assets/js/signin.js"></script>
-
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script> 
 
     <script src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js"></script>
 
@@ -47,7 +105,6 @@
 
 
     <!-- Owl carousel -->
-    <script src="assets/js/jquery.countdown.min.js"></script>
 
     <script src="assets/js/owl.carousel.min.js"></script>
     <!-- Slicknav js -->
@@ -70,12 +127,5 @@
 
 
     <?php } ?> 
-
-    <script type="text/javascript" src="//platform.linkedin.com/in.js">
-    api_key: 77lpqeh3bb98vi
-    authorize: true
-    onLoad: onLinkedInLoad
-</script>
-
   </body>
 </html>

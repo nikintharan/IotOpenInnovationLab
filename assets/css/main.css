@@ -195,7 +195,7 @@ fieldset[disabled] .btn {
 .page-header {
   padding: 0;
   margin: 0;
-  min-height: 250px;
+  min-height: 600px;
 }
 .page-header:before {
   background: rgba(34, 34, 34, 0.6);
@@ -735,15 +735,32 @@ color: #000;
 /* ==========================================================================
    Custom Componet
    ========================================================================== */
+.platform-info {
+  padding-bottom: 100px;
+}
+   
+   /* Register Panel */
+   
+.register-front {
+  margin-top: 200px;
+}
+
+.register-front h2 {
+  color: white;
+}
+   
+   
+   
 /* ==========================================================================
    Countdown Style Start
    ========================================================================== */
 .countdown-timer {
-  height: 800px;
-  background: url(../img/iotbg.jpg);
+  min-height: 600px;
+  background: url(../img/background/iot-flippedv.png);
   z-index: 100;
   position: relative;
   background-size: cover;
+  background-position: center;
   background-position: 0px 0px, 50% 50%;
 }
 
@@ -807,7 +824,8 @@ color: #000;
   text-align: center;
   padding: 15px 15px 20px 15px;
   margin-right: 20px;
-  color: #777;
+  background-color: rgba(51, 51, 51, .6);
+  color: white;
   font-size: 14px;
   line-height: 15px;
   text-transform: uppercase;
@@ -817,12 +835,29 @@ color: #000;
   line-height: 45px;
   font-weight: 700;
   display: block;
-  color: #333;
+  color: white;
   margin-bottom: 10px;
 }
 .time-countdown {
-  margin-top: 68px;
+  margin-top: 275px;
 }
+
+.stream {
+  padding-top: 50px;
+}
+
+.stream-btn i {
+  padding-right: 10px;
+}
+
+.stream-btn {
+  background-color: #d61313;
+  color: white;
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+
 /* ==========================================================================
    Event location
    ========================================================================== */
@@ -876,13 +911,51 @@ color: #000;
    Featured Style Start
    ========================================================================== */
 .featured-box {
-  padding: 20px;
+  padding: 35px;
   text-align: center;
 }
 .featured-box2 {
   padding: 20px;
   text-align: center;
 }
+
+.btn-hire {
+  background-color: #c4c4c4;
+  color: black;
+  border-color: grey;
+  margin-top: 15px;
+}
+
+.btn-hire:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn-hire:active {
+  background-color: #c4c4c4;
+  color: black;
+}
+.btn-hire:focus {
+  background-color: #c4c4c4;
+  color: black;
+}
+
+.corp-tagline {
+  line-height: 1.65px;
+}
+
+.featured-box2 i {
+  padding: 8px;
+}
+
+.about-iot-corporate p {
+  color: #D2D2D2;
+  padding: 15px;
+  background-color: rgba(255,255,255,.15);
+  font-size: 15px;
+}
+
+
 .featured-box .icon {
   padding: 15px;
 }
@@ -1457,7 +1530,6 @@ h1 {
 .crowd-bg {
   background: url(../img/background/bg-1.jpg);
   background-size: cover;
-  
 }
 
 /* ==========================================================================
@@ -1546,13 +1618,14 @@ h1 {
   transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
 }
 
-.pricing-table .table-icon i {
-  font-size: 44px;
-  width: 70px;
-  height: 30px;
+.table-icon {
   padding: 10px;
-  border-radius: 50%;
+  padding: 10px;
   color: #333;
+}
+
+.plan-info i {
+  padding-right: 5px;
 }
 .pricing-table h3 {
   font-size: 24px;
@@ -1562,7 +1635,7 @@ h1 {
 .pricing-table .plan-info {
   margin-top: 15px;
 }
-.pricing-table .plan-info li {
+.plan-info li {
   font-size: 16px;
   line-height: 32px;
 }
