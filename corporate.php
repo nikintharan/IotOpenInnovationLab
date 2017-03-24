@@ -1,15 +1,24 @@
 <?php include ('header.php');?>
+
+
     <!-- Abhinav Modal -->
     <div class="modal fade" id="meetAbhinav" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-            <h4 class="modal-title" id="myModalLabel">Meet Abhinav</h4>
+            <h4 class="modal-title text-center" id="myModalLabel">Hiring at the IoT Open Innovation Lab</h4>
           </div>
           <div class="modal-body">
-            <img class="img-circle" class="img-circle" style="display: block;margin-left: auto;margin-right: auto;" src="../assets/img/abhinav.jpg">
-            <h5>Abhinav, you might want to write this.</h5>
+            <div class='text-center'>
+              <h4>"The best time to plant a tree was 20 years ago, <br>the second best time is now"</h4>
+              <br>
+              <p>The Internet of Things has disrupted traditional markets, adding new ways 
+              to create value and growth within organizations. We can help you hire the best talent to allow you to 
+              make the most out of these new opportunities.<br><br>
+              Partnering with the IoT Open Innovation Lab lets you tap into the next generation of innovators.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -70,7 +79,7 @@
                     <p>Looking for candidates with a background in IoT? By partnering with the Open Innovation Lab you can get access to students
                     with a passion and interest in the field.</p>
                   </div>
-                  <button type="button" class="btn btn-small btn-hire" data-toggle="modal" data-target="#meetAbhinav">
+                  <button type="button" class="btn btn-small btn-hire" data-toggle="modal" data-target="#meetAbhinav" onclick="trackClick('meetAbhinav');">
                    Learn More
                   </button>
                 </div>
@@ -159,7 +168,7 @@
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="spnsors-logo wow fadeInUp" data-wow-delay="0.4s">
-                        <a id="sponsorClick" href='javascript:;' data-toggle="modal" data-target="#survey"><img src="assets/img/sponsors/plus.png" alt="">
+                        <a id="sponsorClick" onclick="trackClick('corporateSurvey');" href='javascript:;' data-toggle="modal" data-target="#survey"><img src="assets/img/sponsors/plus.png" alt="">
                         <p>Possibly you! Click to get involved</p>
                         <script>
                           window.mobilecheck = function() {
@@ -169,7 +178,7 @@
                           };
                           
                           if(mobilecheck()) {
-                            var sponsorClick = document.getElementById(sponsorClick);
+                            var sponsorClick = document.getElementById("sponsorClick");
                             sponsorClick.href = "https://docs.google.com/forms/d/e/1FAIpQLSeWrTdZfc77NYNyCsNF29ztcTVuZt9mm0u72xHTpQ1h4ZpIrg/viewform?embedded=true";
                             sponsorClick.setAttribute("data-toggle", "");
                           }
