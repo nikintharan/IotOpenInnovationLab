@@ -12,7 +12,12 @@
           <div class="modal-body">
             <div class='text-center'>
               <h4>"The best time to plant a tree was 20 years ago, <br>the second best time is now"</h4>
-              <p></p>
+              <br>
+              <p>The Internet of Things has disrupted traditional markets, adding new ways 
+              to create value and growth within organizations. We can help you hire the best talent to allow you to 
+              make the most out of these new opportunities.<br><br>
+              Partnering with the IoT Open Innovation Lab lets you tap into the next generation of innovators.
+              </p>
             </div>
           </div>
         </div>

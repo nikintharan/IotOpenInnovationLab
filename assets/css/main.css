@@ -958,6 +958,7 @@ color: #000;
 .about-iot-user p {
   color: #424242;
   padding: 15px;
+  background-color: rgba(0,0,0,.005);
   border-style: solid;
   border-color: rgba(0,0,0,.03);
   border-width: 6px;
