@@ -1,15 +1,19 @@
 <?php include ('header.php');?>
+
+
     <!-- Abhinav Modal -->
     <div class="modal fade" id="meetAbhinav" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-            <h4 class="modal-title" id="myModalLabel">Meet Abhinav</h4>
+            <h4 class="modal-title text-center" id="myModalLabel">Hiring at the IoT Open Innovation Lab</h4>
           </div>
           <div class="modal-body">
-            <img class="img-circle" class="img-circle" style="display: block;margin-left: auto;margin-right: auto;" src="../assets/img/abhinav.jpg">
-            <h5>Abhinav, you might want to write this.</h5>
+            <div class='text-center'>
+              <h4>"The best time to plant a tree was 20 years ago, <br>the second best time is now"</h4>
+              <p></p>
+            </div>
           </div>
         </div>
       </div>
