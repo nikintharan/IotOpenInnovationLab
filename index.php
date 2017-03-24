@@ -11,7 +11,7 @@
           <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="0.2s">
             <div class='register-front text-center'>
               <h2> Register with</h2>
-              <a href='javascript:;' onclick="liLogin()"><img src='assets/img/LinkedIn-2.png' style='background-color: rgba(51,51,51,.75)!important' class='btn btn-common btn-lrg'></a>
+              <a href='javascript:;' onclick="liLogin();trackClick('linkedinLogin');"><img src='assets/img/LinkedIn-2.png' style='background-color: rgba(51,51,51,.75)!important' class='btn btn-common btn-lrg'></a>
             </div>
           </div>
           <!--

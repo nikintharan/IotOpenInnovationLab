@@ -70,7 +70,7 @@
                     <p>Looking for candidates with a background in IoT? By partnering with the Open Innovation Lab you can get access to students
                     with a passion and interest in the field.</p>
                   </div>
-                  <button type="button" class="btn btn-small btn-hire" data-toggle="modal" data-target="#meetAbhinav">
+                  <button type="button" class="btn btn-small btn-hire" data-toggle="modal" data-target="#meetAbhinav" onclick="trackClick('meetAbhinav');">
                    Learn More
                   </button>
                 </div>
@@ -159,7 +159,7 @@
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="spnsors-logo wow fadeInUp" data-wow-delay="0.4s">
-                        <a id="sponsorClick" href='javascript:;' data-toggle="modal" data-target="#survey"><img src="assets/img/sponsors/plus.png" alt="">
+                        <a id="sponsorClick" onclick="trackClick('corporateSurvey');" href='javascript:;' data-toggle="modal" data-target="#survey"><img src="assets/img/sponsors/plus.png" alt="">
                         <p>Possibly you! Click to get involved</p>
                         <script>
                           window.mobilecheck = function() {
@@ -169,7 +169,7 @@
                           };
                           
                           if(mobilecheck()) {
-                            var sponsorClick = document.getElementById(sponsorClick);
+                            var sponsorClick = document.getElementById("sponsorClick");
                             sponsorClick.href = "https://docs.google.com/forms/d/e/1FAIpQLSeWrTdZfc77NYNyCsNF29ztcTVuZt9mm0u72xHTpQ1h4ZpIrg/viewform?embedded=true";
                             sponsorClick.setAttribute("data-toggle", "");
                           }
