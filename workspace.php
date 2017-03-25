@@ -35,16 +35,180 @@
                             
                               <!-- Nav tabs -->
                               <ul class="nav nav-tabs" role="tablist">
-                                <li role="presentation"  class="active"><a href="#1" aria-controls="1" role="tab" data-toggle="tab">Use Case</a></li>
-                                <li role="presentation"><a href="#2" aria-controls="2" role="tab" data-toggle="tab">Technology Architechture</a></li>
-                                <li role="presentation"><a href="#3" aria-controls="3" role="tab" data-toggle="tab">Business Case</a></li>
+                                <li role="presentation"  class="active"><a href="#1" aria-controls="1" role="tab" data-toggle="tab">Example</a></li>
+                                <li role="presentation"><a href="#2" aria-controls="2" role="tab" data-toggle="tab">Use Case</a></li>
+                                <li role="presentation"><a href="#3" aria-controls="3" role="tab" data-toggle="tab">Technology Architechture</a></li>
+                                <li role="presentation"><a href="#4" aria-controls="4" role="tab" data-toggle="tab">Business Case</a></li>
                               </ul>
                             
                               <!-- Tab panes -->
+                              
+                            
                               <div class="tab-content">
                                 <div role="tabpanel" class="tab-pane active" id="1">
                                     <div class="meta"></div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem facilis possimus quo cum delectus itaque! Soluta id a laudantium error omnis totam suscipit doloremque quam nostrum provident minus consectetur, debitis! Itaque ipsam consequuntur minus aut iusto, in earum dolores adipisci quis rerum, cum animi voluptate provident deserunt assumenda sequi pariatur molestias commodi.</p>
+                                    <p>
+                                        Welcome to the IOT Open Innovation Ideation Contest. Your
+                                        
+                                        team will be designing an innovative / creative
+                                        
+                                        design/solution/idea utilizing the Internet of things (IoT). to
+                                        
+                                        solve a problem (Does it have to be a problem?) You will
+                                        
+                                        complete 3 modules (Use case, Tech case and Business case) to
+                                        
+                                        address different aspects of your solution.
+                                        
+                                        To help you get started, we will walk you through an example
+                                        
+                                        of an IOT-enabled garbage can. Please note that the purpose of
+                                        
+                                        this example is to simply familiarize you with the three
+                                        
+                                        modules. As there are no limits on length or depth, we
+                                        
+                                        encourage you to provide as much detail as possible in your
+                                        
+                                        solution. (lot of competition…so provide detail to help with
+                                        
+                                        evaluation?, CLARIFY that this is NOT a sample solution)
+                                        <br><br>
+                                        EXAMPLE: SMART GARBAGE BIN
+                                        <br><br>
+                                        <strong>USE CASE</strong>
+                                        <br><br>
+                                        In this section, you will examine the problem at hand, who has
+                                        
+                                        this problem, how this is currently solved and (how your
+                                        
+                                        solution would fit into this market / how your solution
+                                        
+                                        improves the status quo/ how your solution is an
+                                        
+                                        improvement over the existing solution?
+                                        <br><br>
+                                        Efficient waste disposal can not only cut costs but also keep the
+                                        
+                                        environment clean. Overflowing garbage bins are a problem on
+                                        
+                                        campus, and in the city. Currently, pedestrians will either have
+                                        
+                                        to take time to find another, less full bin or could pile it on top,
+                                        
+                                        causing potential litter. Waste disposal/custodial staff/facilities
+                                        
+                                        staff operates on a schedule to empty the trash, regardless of
+                                        
+                                        whether the bins are full or not. As there is no intelligent way of
+                                        
+                                        monitoring/logging waste/fill volume in the garbage bins, this
+                                        
+                                        leads to inefficient utilization of resources in the form of
+                                        
+                                        pickups after an overflow or unnecessary pickups.
+            
+                                        <br><br>
+                                        <strong>TECH CASE</strong>
+                                        <br><br>
+                                        In this section, you will determine what technology
+                                        
+                                        components are needed in order to create the solution and
+                                        
+                                        how they will interact with each other? In order to create a
+                                        
+                                        connected device, the components (actors?) involved are
+                                        
+                                        physical objects, a sensor (and possibly an actuator), and a
+                                        
+                                        microcontroller that transmits data over a &lt;suitable&gt; network.
+                                        
+                                        <br><br>
+                                        
+                                        In our example, the physical object is the garbage can. The
+                                        
+                                        actors involved are the facilities staff and pedestrians. In order
+                                        
+                                        to mitigate the overflow problem and to make more efficient
+                                        
+                                        use of resources, a microcontroller and ultrasonic sensor/IR
+                                        
+                                        distance sensor would be attached to the garbage bin to
+                                        
+                                        detect/measure the garbage/fill volume (based on distance
+                                        
+                                        from the top of the can to the garbage)
+                                        
+                                     
+                                        <br><br>
+                                        <strong>BUSINESS CASE</strong>
+                                        <br><br>
+                                        In the business case, you will consider the feasibility of your
+
+                                        product in the market. You will consider the market that you
+                                        
+                                        will actually sell too, their needs, existing solutions, and
+                                        
+                                        willingness to pay.
+                                        <br><br>
+                                        
+                                        In our trash can example, given that this increases the efficacy
+                                        
+                                        of the trash cans, improves customer experience, and improves
+                                        
+                                        staff efficiency, we anticipate that cities and facilities would be
+                                        
+                                        willing to invest in a one-time premium for this trash can. Given
+                                        
+                                        that this product has benefits to the businesses and should be
+                                        
+                                        implemented across wide areas, the product should be
+                                        
+                                        launched via a direct sales model where we approach
+                                        
+                                        businesses to buy the trash cans. Some users may not buy the
+                                        
+                                        product if they currently do not experience as much traffic as
+                                        
+                                        their trash cans can handle.
+                                        <br><br>
+                                       
+                                    </p>
+                                </div>
+                                  
+                                <div role="tabpanel" class="tab-pane" id="2">
+                                    <div class="meta"></div>
+                                    <p>
+                                     In this section, you will examine the problem at hand, who has
+                                        
+                                        this problem, how this is currently solved and (how your
+                                        
+                                        solution would fit into this market / how your solution
+                                        
+                                        improves the status quo/ how your solution is an
+                                        
+                                        improvement over the existing solution?
+                                        <br><br>
+                                        Efficient waste disposal can not only cut costs but also keep the
+                                        
+                                        environment clean. Overflowing garbage bins are a problem on
+                                        
+                                        campus, and in the city. Currently, pedestrians will either have
+                                        
+                                        to take time to find another, less full bin or could pile it on top,
+                                        
+                                        causing potential litter. Waste disposal/custodial staff/facilities
+                                        
+                                        staff operates on a schedule to empty the trash, regardless of
+                                        
+                                        whether the bins are full or not. As there is no intelligent way of
+                                        
+                                        monitoring/logging waste/fill volume in the garbage bins, this
+                                        
+                                        leads to inefficient utilization of resources in the form of
+                                        
+                                        pickups after an overflow or unnecessary pickups.
+                                     </p>
                                    
                                     <div data-ng-controller="help">
                                         <form name="helpForm" novalidate="" role="form">
@@ -81,53 +245,162 @@
                                             </div>
                                     </div>
                                 </div>
-                                <div role="tabpanel" class="tab-pane" id="2">
-                                             <div class="meta"></div>
-                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem facilis possimus quo cum delectus itaque! Soluta id a laudantium error omnis totam suscipit doloremque quam nostrum provident minus consectetur, debitis! Itaque ipsam consequuntur minus aut iusto, in earum dolores adipisci quis rerum, cum animi voluptate provident deserunt assumenda sequi pariatur molestias commodi.</p>
-                                             <div class="meta"></div>
-                                                <p>
-                                                    <label for="name">Layer 1 (Physical) </label> <br />                                           
-                                                    The physical entity e.g. heater, humidifier, e-bike, Baby Camera <br />
-                                                    Q. What simple everyday object does it look similar to? 
-                                                    <div style="height: 150px;" id="answer_6"></div>
-                                                    </p>
-                                                <div class="meta"></div>
-    
-                                                <p>
-                                                    <label for="name">Layer 2 (Sensors and Actuators) </label> <br />
-                                                    In this layer, the physical entity has sensors, and actuating elements. For a baby camera, an example of the sensors are the optical sensor and motion sensor <br />
-                                                    Q. Which sensors and actuators do you need?
-                                                    <div style="height: 150px;" id="answer_7"></div>
-                                                </p>
-                                                <div class="meta"></div>
-                                                
-                                                <p>
-                                                    <label for="name">Layer 3 (Control Layer) </label> <br />
-                                                    IIn this layer, the sensors and actuators are connected to a microcontroller. E.g: Raspberry Pi, Arduino, Beaglebone Black <br />
-                                                    Q. Which microcontroller do you need?
-                                                    <div style="height: 150px;" id="answer_8"></div>
-                                                </p>
-                                                <div class="meta"></div>
-    
-                                                <p>
-                                                    <label for="name">Layer 4 (Network Connectivity) </label> <br />
-                                                    The microcontroller needs to transmit data over the network. E.g: here a baby camera transmits images and video through WiFi <br />
-                                                    Q. How is the microcontroller sending data? (E.g WiFi, ZigBee, Bluetooth)
-                                                    <div style="height: 150px;" id="answer_9"></div>
-                                                </p>
-                                                <div class="meta"></div>
-    
-                                                <p>
-                                                    <label for="name">Layer 5 (Data) </label> <br />
-                                                    The data needs to be collected, analyzed and presented to the user. E.g: The user receives the images and videos from the baby camera on a mobile device <br />
-                                                    Q. What happens to the transmitted data?
-                                                    <div style="height: 150px;" id="answer_10"></div>
-                                                </p>
-                                                <div class="meta"></div>
-                                </div>
+                                
                                 <div role="tabpanel" class="tab-pane" id="3">
+                                             <div class="meta"></div>
+                                             <p>
+                                               In this section, you will determine what technology
+                                        
+                                        components are needed in order to create the solution and
+                                        
+                                        how they will interact with each other? In order to create a
+                                        
+                                        connected device, the components (actors?) involved are
+                                        
+                                        physical objects, a sensor (and possibly an actuator), and a
+                                        
+                                        microcontroller that transmits data over a &lt;suitable&gt; network.
+                                        
+                                        In our example, the physical object is the garbage can. The
+                                        
+                                        actors involved are the facilities staff and pedestrians. In order
+                                        
+                                        to mitigate the overflow problem and to make more efficient
+                                        
+                                        use of resources, a microcontroller and ultrasonic sensor/IR
+                                        
+                                        distance sensor would be attached to the garbage bin to
+                                        
+                                        detect/measure the garbage/fill volume (based on distance
+                                        
+                                        from the top of the can to the garbage)
+                                        
+                                        <br><br>
+                                        
+                                        When a garbage bin reaches a certain threshold (lets say 85%),
+                                        
+                                        an alert/notification will be sent wirelessly (Wi-Fi if on campus)
+                                        
+                                        to the custodial staff, alerting them of the situation.
+                                               </p>
+                                             
+                                             <img align="center "src="/assets/img/wastecan.svg" alt="Mountain View" style="width:304px;height:228px;">
+                                             
+                                             <div class="meta"></div>
+                                             
+                                            <div class="table-responsive">
+                                            <table class="table table-bordered">
+                                              <tbody>
+                                                <tr>
+                                                  <th scope="row" class="rotate_90 col-md-1">Actors/Objects</th>
+                                                  <td>Q. What are the major actors (environment, object, person)? 
+                                                    <div style="height: 150px;" id="answer_6"></div>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                              <tbody>
+                                                <tr>
+                                                  <th scope="row" class="rotate_90" rowspan="2">Sensors/Actuators
+                                                  </th>
+                                                  <td colspan="2">Q. Which sensors and actuators do you need?</td>
+                                                 </tr>
+                                                <tr>
+                                                  <td>
+                                                  <div style="height: 150px;" id="answer_7"></div>
+                                                  </td>
+                                                  <td>
+                                                  <select class="list-group" multiple="" style="display: inline-block;">
+                                                      <option>Temperature Sensor</option>
+                                                      <option>Light Sensor</option>
+                                                      <option>Microphone</option>
+                                                      <option>Gas Sensor</option>
+                                                      <option>Accelerometer</option>
+                                                  </select>
+                                                  </td>
+                                                 </tr> 
+                                                <tr>
+                                                  <th scope="row" class="rotate_90" rowspan="2">Control</th>
+                                                  <td colspan="2"> Q. Which microcontroller do you need?
+                                                </tr>
+                                                <tr>
+                                                  <td>
+                                                  <div style="height: 150px;" id="answer_8"></div>
+                                                  </td>
+                                                  <td>
+                                                  <select class="list-group" multiple="" style="display: inline-block;">
+                                                      <option>Raspberry Pi</option>
+                                                      <option>BeagleBone Black</option>
+                                                      <option>Arduino</option>
+                                                      <option>Intel Edison</option>
+                                                      <option>RS232</option>
+                                                  </select>
+                                                  </td>
+                                                  </td>
+                                                  </tr>
+                                                <tr>
+                                                  <th scope="row" class="rotate_90" rowspan="2">Network</th>
+                                                  <td colspan="2"> Q. How is the microcontroller sending data? (E.g WiFi, ZigBee, Bluetooth)</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>
+                                                  <div style="height: 150px;" id="answer_9"></div>
+                                                  </td>
+                                                  <td>
+                                                  <select class="list-group" multiple="" style="display: inline-block;">
+                                                      <option>WiFi</option>
+                                                      <option>ZigBee</option>
+                                                      <option>Bluetooth</option>
+                                                      <option>Sigfox</option>
+                                                      <option>Infrared</option>
+                                                  </select>
+                                                  </td>
+                                                  </tr>
+                                                <tr>
+                                                  <th scope="row" class="rotate_90" rowspan="2">Data</th>
+                                                  <td colspan="2">Q. What happens to the transmitted data?
+                                                  </td>
+                                                  </tr>
+                                                <tr>
+                                                  <td>
+                                                  <div style="height: 150px;" id="answer_10"></div>
+                                                  </td>
+                                                 
+                                                  </tr>
+
+                                              </tbody>
+                                            </table>
+                                          </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="4">
                                      <div class="meta"></div>
-                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem facilis possimus quo cum delectus itaque! Soluta id a laudantium error omnis totam suscipit doloremque quam nostrum provident minus consectetur, debitis! Itaque ipsam consequuntur minus aut iusto, in earum dolores adipisci quis rerum, cum animi voluptate provident deserunt assumenda sequi pariatur molestias commodi.</p>
+                                     <p> In the business case, you will consider the feasibility of your
+
+                                        product in the market. You will consider the market that you
+                                        
+                                        will actually sell too, their needs, existing solutions, and
+                                        
+                                        willingness to pay.
+                                        <br><br>
+                                        
+                                        In our trash can example, given that this increases the efficacy
+                                        
+                                        of the trash cans, improves customer experience, and improves
+                                        
+                                        staff efficiency, we anticipate that cities and facilities would be
+                                        
+                                        willing to invest in a one-time premium for this trash can. Given
+                                        
+                                        that this product has benefits to the businesses and should be
+                                        
+                                        implemented across wide areas, the product should be
+                                        
+                                        launched via a direct sales model where we approach
+                                        
+                                        businesses to buy the trash cans. Some users may not buy the
+                                        
+                                        product if they currently do not experience as much traffic as
+                                        
+                                        their trash cans can handle.</p>
                                      <div class="meta"></div>
                                         <p for="name">6. Given the benefits you're providing, how much would your user be willing to pay? (Refer to 5.)</p>
                                         <div style="height: 150px;" id="answer_11"></div>
@@ -146,10 +419,6 @@
                                     <div class="meta"></div>
                                 </div>
                               </div>
-                            
-
-                                        <button data-ng-disabled="progress.active()" data-ng-click="submit(helpForm)" type="submit" id="submit" class="btn btn-common">Submit </button>
-
                                     </form>
                                 </div>
       </div>

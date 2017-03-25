@@ -10,7 +10,6 @@
   padding-top:275px;
 }
 
-
 body {
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
@@ -953,6 +952,21 @@ color: #000;
   font-size: 15px;
 }
 
+.about-iot-user p {
+  color: #424242;
+  padding: 15px;
+  background-color: rgba(0,0,0,.005);
+  border-style: solid;
+  border-color: rgba(0,0,0,.03);
+  border-width: 6px;
+  font-size: 17px;
+  margin-bottom: 0px;
+}
+.about-iot-user-out {
+  border-color: rgba(0,0,0,.06);
+  border-style: solid;
+  border-width: 5px;
+}
 
 .featured-box .icon {
   padding: 15px;

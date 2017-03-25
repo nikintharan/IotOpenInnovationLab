@@ -11,7 +11,9 @@
           <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="0.2s">
             <div class='register-front text-center'>
               <h2> Register with</h2>
-              <a href='javascript:;' onclick="liLogin();trackClick('linkedinLogin');"><img src='assets/img/LinkedIn-2.png' style='background-color: rgba(51,51,51,.75)!important' class='btn btn-common btn-lrg'></a>
+              <a href='javascript:;' onclick="liLogin();trackClick('linkedinLogin');">
+                <img src='assets/img/LinkedIn-2.png' style='background-color: rgba(51,51,51,.75)!important' class='btn btn-common btn-lrg'>
+              </a>
             </div>
           </div>
           <!--
@@ -64,13 +66,36 @@
                   </div>
                 </div>
               </div>
-              <div class='text-center'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam neque non 
-                venenatis convallis. Integer rutrum nec ipsum at tempus. Lorem ipsum dolor sit amet, consectetur 
-                adipiscing elit.  </p>
-              </div
           </div>
         </div>
+        
+          <div class="col-md-12">
+            <div class='col-md-1'></div>
+            <div class='col-md-10'>
+              <div class="featured-box2 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class='about-iot-user-out'>
+                <div class="featured-content about-iot-user">
+                <p>The Internet of Things (IoT) has been been “conservatively” described as an opportunity 
+                somewhere between <strong>four to US$11 trillion (10% of the world’s economy)</strong> in the next decade.  
+                <br><br>
+                Northeastern University is standing up the first industrial-scale Open Innovation 
+                platform to perform a full-cycle of ideation, design, development and prototyping to 
+                generate applications for the Internet-of-Things across the entire university community.
+                <br><br>
+                At least as important, the Lab will be a platform for experiential learning and applied 
+                STEM education, as students solve real problems in a design environment that enables rapid 
+                progress and manageable learning curves. 
+                <br><br>
+                <strong>Our community is not just smart; it is ready-to-build and ready to create value. Join us 
+                on our endeavor; in order to succeed we need participation from all majors and colleges 
+                at Northeastern University.</strong></p>
+                </div>
+              </div>
+              </div>
+            </div
+          </div>
+        </div>
+        
       </div>
     </section>
     <!-- Get Involved Section End -->
@@ -80,13 +105,18 @@
     <section id="featured" class="section crowd-bg">
       <div class="container">
         <div class="row">
+          
+          
+          
           <div class="col-md-12">
             <h2 class="section-title2 wow fadeInUp" data-wow-delay="0s">Sign Up via LinkedIn</h2>
           </div>
           <div class="col-md-12 col-sm-6">
             <div class="featured-box2 wow fadeInLeft" data-wow-delay="0.1s">
               <div class="featured-content">
-                <a href='javascript:;' onclick="liLogin()"><img src='assets/img/LinkedIn-2.png'></a>
+                <a href='javascript:;' onclick="liLogin()">
+                  <img src='assets/img/LinkedIn-2.png' style='background-color: rgba(51,51,51,.75)!important' class='btn btn-common btn-lrg'>
+                </a>
               </div>
             </div>
           </div>
