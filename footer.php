@@ -78,6 +78,8 @@
 
     <!-- jQuery Load -->    
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/interact.js/1.2.6/interact.min.js"></script>    <!-- Page Header Start -->
+
     <!-- Bootstrap JS -->
     <script src="assets/js/bootstrap.min.js"></script> 
     <!-- Latest compiled and minified JavaScript -->

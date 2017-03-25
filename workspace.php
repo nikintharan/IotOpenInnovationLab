@@ -1,7 +1,6 @@
 <?php include ('header.php');?>
 
-    <!-- Page Header Start -->
-    <div class="page-header">      
+<!--     <div class="page-header">      
       <div class="container"> 
         <div class="page-header-inner">         
           <h1 class="page-title wow fadeInRight" data-wow-delay="300ms">
@@ -9,28 +8,25 @@
           </h1>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Page Header End-->
-  <body>
 
       <!-- Start Content -->
       <section id="content" class="section" >
         <div class="container">
             <div class="row">
-                <div class="col-md-2">
+                <!-- <div class="col-md-2">
 		  	<div class="sidebar content-box" style="display: block;">
-                <ul class="nav">
-                    <!-- Main menu -->
+                <ul class="nav">Main menu
                     <li><a href="dashboard.php"><i class="glyphicon glyphicon-home"></i> Dashboard</a></li>
                     <li  class="current"><a href="workspace.php"><i class="glyphicon glyphicon-pencil"></i> Ideation &nbsp&nbsp&nbsp&nbsp&nbsp&nbspContest</a></li>
 
                 </ul>
              </div>
-		  </div>
-                <div class="col-md-10">
+		  </div> -->
+                <div class="col-md-8">
                     <!-- Start Single Post Area -->
-                    <div class="blog-post single-gallery">
-                        <!-- Post Content -->
+                    <div class="blog-post single-gallery">  <!-- Post Content -->
                         <div class="post-content">
                             
                               <!-- Nav tabs -->
@@ -246,9 +242,35 @@
                                     </div>
                                 </div>
                                 
-                                <div role="tabpanel" class="tab-pane" id="3">
-                                             <div class="meta"></div>
-                                             <p>
+                                <div role="tabpanel" class="tab-pane" id="3" style="padding: 0">
+                  
+                           <div id="tech-workspace">
+                               
+                               
+                            <div id="inner-dropzone" class="dropzone">
+                                <div class="techsection part1">
+                                     <a href="#" data-toggle="tooltip" data-placement="right" class ="questions" title="What kind of display do you want?">
+                                        <img class="plus" src="assets/img/plus.png">
+                                    </a>
+                                </div>
+                                <div class="techsection part2">
+                                     <a href="#" data-toggle="tooltip" data-placement="right" class ="questions" title="Which sensor do you want?">
+                                        <img class="plus" src="assets/img/plus.png">
+                                    </a>
+                                </div>
+                                <div class="techsection part3">
+                                    <a href="#" data-toggle="tooltip" data-placement="right" class ="questions" title="Which microcontroller do you want?">
+                                        <img class="plus" src="assets/img/plus.png">
+                                    </a>
+
+
+                                </div>
+
+
+                            </div>  
+                           </div>
+
+                                            <!--  <p>
                                                In this section, you will determine what technology
                                         
                                         components are needed in order to create the solution and
@@ -369,7 +391,7 @@
 
                                               </tbody>
                                             </table>
-                                          </div>
+                                          </div> -->
                                 </div>
                                 <div role="tabpanel" class="tab-pane" id="4">
                                      <div class="meta"></div>
@@ -423,6 +445,28 @@
                                 </div>
       </div>
     </div>
+      <!--Sidebar-->
+            <aside id="sidebar" class="col-md-4 right-sidebar">
+            <div id="sidebar-content">
+
+            
+              <!-- <div class="widget widget-search">
+                <form action="#">
+                  <input class="form-control" type="search" placeholder="Start Searching..." />
+                  <button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>   -->          
+
+              <div class="widget widget-popular-posts">
+              <h5 class="widget-title">Elements You Need</h5>
+                <ul class="posts-list">
+                  
+                </ul>
+              </div>
+
+             
+            </div>
+            </aside>
   </div>
 <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
                 </div>
@@ -430,10 +474,183 @@
               </div>
 <!-- End Single Post Area -->
             </div>
+
+           
           </div>
         </div>
       </section>
       <!-- End content -->
 
+     
+
   <?php include ('footer.php');?>
+  <!--  <script>
+    var stage = new Konva.Stage({
+        container: 'tech-workspace',
+        width: window.innerWidth,
+        height: 600
+    });
+
+    // add canvas element
+    var layer = new Konva.Layer();
+    var imageObj = new Image();
+    imageObj.onload = function() {
+      var plus1 = new Konva.Image({
+        x: 50,
+        y: 520,
+        image: imageObj,
+        width: 25,
+        height: 25,
+        draggable: false
+      });
+
+      plus1.on('mouseover', function() {
+      var mousePos = stage.getPointerPosition();
+      writeMessage(x, y,"Which Micro-controller do you need?");
+    });
+
+       var text = new Konva.Text({
+      x: 10,
+      y: 10,
+      fontFamily: 'Calibri',
+      fontSize: 24,
+      text: '',
+      fill: 'black'
+    });
+
+    node.setAttr('x', 5);
+      var plus2 = new Konva.Image({
+        x: 50,
+        y: 350,
+        image: imageObj,
+        width: 25,
+        height: 25,
+        draggable: false
+      });
+
+      var separatorLine_network_layer = new Konva.Line({
+      x: 0,
+      y: 450,
+      points: [750,5,1,1,1,1],
+      stroke: 'grey',
+      strokeWidth: 1,
+      lineJoin: 'round',
+      /*
+       * line segments with a length of 33px
+       * with a gap of 10px
+       */
+      dash: [5, 2]
+    });
+
+      var separatorLine_processor_layer = new Konva.Line({
+      x: 0,
+      y: 300,
+      points: [750,5,1,1,1,1],
+      stroke: 'grey',
+      strokeWidth: 1,
+      lineJoin: 'round',
+      /*
+       * line segments with a length of 33px
+       * with a gap of 10px
+       */
+      dash: [5, 2]
+    });
+
+      // add the shape to the layer
+      layer.add(plus1);
+      layer.add(plus2);
+      layer.add(separatorLine_network_layer);
+      layer.add(separatorLine_processor_layer);
+      // add the layer to the stage
+      stage.add(layer);
+    };
+    imageObj.src = 'assets/img/plus.png';
+</script> -->
+
+
   
+<style type="text/css">
+#inner-dropzone {
+  height: 100%;
+  
+}
+
+.techsection
+{
+  border-top: 1px dotted grey;
+  width: 100%;
+  position: relative;
+  
+}
+
+.techsection.part1
+{
+    border-top: 0px;
+} 
+
+.techsection .questions
+{
+    
+
+    margin: 0px 30px;
+        position: relative;
+    top: 40%;
+}
+.techsection .questions .plus{
+  width: 5% !important;
+}
+
+.dropzone {
+  /*background-color: #ccc;
+  border: dashed 4px transparent;
+  border-radius: 4px;
+  margin: 10px auto 30px;
+  padding: 10px;*/
+  width: 100%;
+  /*transition: background-color 0.3s;*/
+}
+
+
+.drop-target {
+  background-color: #29e;
+  border-color: #fff;
+  border-style: solid;
+}
+
+.drag-drop {
+
+
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+
+
+}
+
+.drag-drop.can-drop {
+  color: #000;
+  background-color: #4e4;
+}
+</style>
+
+<script type="text/javascript">
+    
+/* The dragging code for '.draggable' from the demo above
+ * applies to this demo as well so it doesn't have to be repeated. */
+
+$(document).ready(function(){
+
+    var secHeight = ($('#tech-workspace').height())/3;
+    $('#tech-workspace .techsection').height(secHeight);
+
+    $('[data-toggle="tooltip"]').tooltip();  
+
+
+    $('.part3 .questions').on("click",function(){
+
+
+        $('#sidebar #sidebar-content ul').html("<li class='draggable drag-drop'><div class='widget-thumb'><a href='#'><img src='assets/img/raspi.png' alt=' /></a></div><div class='widget-content'><a href='#'>Raspberry Pi</a><!-- <span><i class='icon-calendar'></i>2016/10/28</span><span><i class='icon-folder'></i>Blog</span> --></div><div class='clearfix'></div></li><li class='draggable drag-drop'><div class='widget-thumb'><a href='#'><img src='assets/img/bean.png' alt=' /></a></div><div class='widget-content'><a href='#'>Light Blue Bean</a><!-- <span><i class='icon-calendar'></i>2016/10/28</span><span><i class='icon-folder'></i>Blog</span> --></div><div class='clearfix'></div></li><li class='draggable drag-drop'><div class='widget-thumb'><a href='#'><img src='assets/img/arduino.png' alt=' /></a></div><div class='widget-content'><a href='#'>Arduino</a><!-- <span><i class='icon-calendar'></i>2016/10/28</span><span><i class='icon-folder'></i>Blog</span> --></div><div class='clearfix'></div></li>");
+    });
+});
+
+
+</script>
