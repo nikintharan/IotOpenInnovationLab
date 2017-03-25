@@ -15,4 +15,12 @@
       eventLabel: btnName
     });
   }
+  
+  var trackSignup = function(type){
+    ga('send', 'event', {
+      eventCategory: 'Sign Up',
+      eventAction: 'signUp',
+      eventLabel: type
+    });
+  }
 </script>
