@@ -59,6 +59,8 @@
   </head>
   <body>
 
+  <?php if($activePage != 'newIndex')
+  { ?>
  <!-- Header Area wrapper Starts -->
     <header id="header-wrap">
 
@@ -98,3 +100,4 @@
 
     </header>
     <!-- Header Area wrapper End -->
+      <?php } ?>

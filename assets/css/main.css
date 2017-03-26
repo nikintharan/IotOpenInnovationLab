@@ -755,13 +755,33 @@ color: #000;
    Countdown Style Start
    ========================================================================== */
 .countdown-timer {
-  min-height: 600px;
+  min-height: 800px;
   background: url(../img/background/iot-flippedv.png);
   z-index: 100;
   position: relative;
   background-size: cover;
   background-position: center;
-  background-position: 0px 0px, 50% 50%;
+}
+
+.landing-full {
+  min-height: 1000px !important;
+  background: url(../img/background/iot-flippedv.png);
+  z-index: 100;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.landing-buttons a {
+  margin: 50px;
+}
+.landing-buttons h2 {
+  color: white;
+  margin-top: 10px;
+}
+
+.red-btn {
+  background-color: rgba(171, 35, 35, 1) !important; 
 }
 
 .countdown-timer:before {
@@ -780,9 +800,21 @@ color: #000;
   height: 100%;
   display: block;
 }
+
+.front-image-sec img {
+  padding: 35px;
+  background-color: rgba(51, 51, 51, .9);
+  box-shadow: 0 14px 26px -12px rgba(0,0,0, 0.42), 0 4px 23px 0px rgba(0,0,0, 0.12), 0 8px 10px -5px rgba(0,0,0, 0.02);
+
+  /*  box-shadow: 0 5px 5px -2px rgba(31, 31, 31, 0.4);
+*/
+}
+
    
+
 .countdown-timer .text {
-  padding: 150px 68px;
+  padding-top: 120px;
+  padding-bottom: 40px;
 }
 
 .countdown-timer .text h2 {
