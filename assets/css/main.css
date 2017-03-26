@@ -10,7 +10,6 @@
   padding-top:275px;
 }
 
-
 body {
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
@@ -372,7 +371,7 @@ fieldset[disabled] .btn {
 }
 
 .navbar-event .navbar-nav li a {
-  color: #9a9a9a;
+  color: #fff;
   padding: 0 20px;
   margin: 15px 5px;
   line-height: 40px;
@@ -431,7 +430,7 @@ color: #000;
 #header-wrap
 {
     z-index: 110;
-    position: absolute;
+    /*position: absolute;*/
     width: 100%;
 }
 
@@ -748,8 +747,6 @@ color: #000;
 .register-front h2 {
   color: white;
 }
-   
-   
    
 /* ==========================================================================
    Countdown Style Start
@@ -2140,7 +2137,15 @@ footer ul li a {
   float: none;
   width: 100%;
   clear: both;
-  padding: 30px;
+}
+.blog-post .post-content .nav-tabs
+{
+      margin: 30px 30px 0px 30px;
+}
+
+.blog-post .post-content .tab-pane
+{
+  padding: 0px 30px;
 }
 .blog-post .post-content .meta {
   font-size: 13px;
@@ -2212,6 +2217,27 @@ footer ul li a {
   font-size: 1.2em;
   color: #fff;
 }
+
+.blog-post #tech-workspace
+{
+  height: 650px;
+}
+
+
+.questions + .tooltip > .tooltip-inner {
+    background-color: white; 
+    color: #000; 
+    border: 1px solid #42c0fb;
+    padding: 15px;
+    font-size: 15px;
+}
+
+/* Tooltip on right */
+.questions  + .tooltip.right > .tooltip-arrow {
+    border-right: 5px solid #42c0fb;
+}
+
+
 #pagination {
   text-align: center;
 }
@@ -2298,7 +2324,13 @@ footer ul li a {
 }
 #sidebar {
   margin-bottom: 30px;
-  padding: 0px 30px;
+  padding: 0px 10px;
+}
+
+#sidebar-content{
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: white;
 }
 #sidebar .widget {
   padding-bottom: 30px;
@@ -2342,13 +2374,12 @@ footer ul li a {
 }
 #sidebar .posts-list .widget-thumb {
   float: left;
+
 }
 #sidebar .posts-list .widget-thumb img {
   opacity: 1;
-  transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
+  width: 40%;
+  
 }
 #sidebar .posts-list .widget-thumb:hover img {
   opacity: 0.7;

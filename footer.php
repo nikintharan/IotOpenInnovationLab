@@ -78,8 +78,14 @@
 
     <!-- jQuery Load -->    
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/interact.js/1.2.6/interact.min.js"></script>    <!-- Page Header Start -->
+
     <!-- Bootstrap JS -->
     <script src="assets/js/bootstrap.min.js"></script> 
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
+    <!-- (Optional) Latest compiled and minified JavaScript translation files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/i18n/defaults-*.min.js"></script>
     <!-- Countdown Js -->
     <!-- Smooth scroll JS -->   
     <script src="assets/js/smooth-scroll.js"></script>        

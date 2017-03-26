@@ -5,9 +5,30 @@ function onLinkedInLoad() {
     IN.Event.on(IN, "auth", getProfileData);
 }
 
+// Linkedin won't let me add parameters in their function so small hack here
+var handleLanding = function() {
+    trackSignup("landing");
+}
+
+// Tracking and animate survey modal
+var handleCorporate = function() {
+    trackSignup("corporate");
+    $('#corpSurvey').addClass('animated bounceInRight');
+    $("#corpSurvey").attr("style", "display: inline;");
+    $('#corpSurvey').addClass('animated .fadeOut');
+    $("#corpLogin").attr("style", "display: none;");
+}
+
 var liLogin = function() { // Setup an event listener to make an API call once auth is complete
     IN.UI.Authorize().params({"scope":["r_basicprofile", "r_emailaddress"]}).place();
-    IN.Event.on(IN, 'auth', getProfileData);
+    IN.Event.on(IN, 'auth', handleLanding); //onLinkedinLoad will already handle the getProfileData
+}
+
+// Using secondary login function so that it can be embedded into a button and moved around,
+// while it doesn't look as pretty it will be easiest to use if we changes pages around
+var liLoginCorporate = function() { // Setup an event listener to make an API call once auth is complete
+    IN.UI.Authorize().params({"scope":["r_basicprofile", "r_emailaddress"]}).place();
+    IN.Event.on(IN, 'auth', handleCorporate); //onLinkedinLoad will already handle the getProfileData
 }
         
 var closeSession = function(){
