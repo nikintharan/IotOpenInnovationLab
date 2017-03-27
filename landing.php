@@ -1,6 +1,5 @@
 <?php include ('header.php');?>
 
-
     <!-- Page Header Start -->
     <div class="page-header landing landing-page-header">
       <div class="container"> 
@@ -38,7 +37,6 @@
       </div> 
     </div>
     <!-- Main Slider Section End -->
-
     <!-- Coundown Section Start -->
     <section class="countdown-timer section" id="countdown-timer-landing">
       <div class="container">
@@ -167,5 +165,3 @@
     </section>
     <!-- Featured Section End -->
     <?php include ('footer.php');?>
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help

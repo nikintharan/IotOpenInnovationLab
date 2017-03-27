@@ -61,7 +61,7 @@
   </head>
   <body>
 
-  <?php if($activePage != 'newIndex')
+  <?php if($activePage != 'index')
   { ?>
  <!-- Header Area wrapper Starts -->
     <header id="header-wrap">
