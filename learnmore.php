@@ -3,18 +3,18 @@
     <section class="countdown-timer section">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.2s">
-            <div class="text">
-              <h2>IoT Open <br>Innovation <br>Lab</h2>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="0.2s">
-            <div class='register-front text-center'>
+          <div class="col-md-12 wow fadeInLeft" data-wow-delay="0.2s">
+            <div class="text learnmore-title text-center">
+              <div class='landing-text'>
+                <h2>IoT Open Innovation Lab</h2>
+                <h4> At Northeastern University </h4>
+              </div>
 
               <a href='javascript:;' onclick="liLogin();trackClick('linkedinLogin');" class='btn red-btn btn-common btn-lrg'>
-              <h2 style='margin-top: 5px !important'>Register with</h2>                
+                <h2 style='margin-top: 5px !important'>Register with</h2>                
                 <img src='assets/img/LinkedIn-2.png'>
               </a>
+              
             </div>
           </div>
           <!--

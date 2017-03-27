@@ -10,6 +10,17 @@
   padding-top:275px;
 }
 
+.learnmore-title {
+  padding-top: 175px !important;
+}
+
+.landing-text {
+  margin: 40px;
+}
+.red-btn h2 {
+  font-size: 30px !important;
+}
+
 
 body {
   font-size: 15px;
@@ -185,7 +196,6 @@ fieldset[disabled] .btn {
   background: url(../img/background/iot.png);
   position: relative;
   background-size: cover;
-  background-position: 0px 0px, 50% 50%;
 }
    
 .landing-page-header {

@@ -61,11 +61,11 @@
   </head>
   <body>
 
-  <?php if($activePage != 'index')
+  <?php if($activePage != 'index' and $activePage != 'corporatelanding')
   { ?>
  <!-- Header Area wrapper Starts -->
     <header id="header-wrap">
-
+      
       <!-- Nav Menu Section Start -->
       <div class="navigation-menu">
         <nav class="navbar navbar-default navbar-event" role="navigation" data-spy="affix" data-offset-top="1" id="topnavbar">
