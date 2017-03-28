@@ -70,6 +70,57 @@
           </div>
         </div>
         
+        <div class='col-md-12'>
+          <div class='col-md-1'></div>
+          <div class='col-md-3'> 
+            <h2> What is IoT </h2>
+          </div>
+        </div>
+        <div class='col-md-12 text-center'>
+          <div class='col-md-6 tex-center'>
+          <p> What is IoT Text
+              Northeastern University is creating an industrial scale Open Innovation platform to enable
+              students with the resources they need to develop innovative ideas using new technology. 
+              
+              The IoT Open Innovation Lab will perform a full cycle of ideation, design, development, and prototyping
+              to generate new applications for the Internet of Things.
+          </div>
+        </div>
+        <div class='col-md-12'>
+          <div class='col-md-1'></div>
+          <div class='col-md-3'>
+            <h2> Who are we? </h2>
+          </div>
+        </div>
+        <div class='col-md-12 text-center'>
+          <div class='col-md-6'>
+            <p> Who are we text
+                Northeastern University is creating an industrial scale Open Innovation platform to enable
+                students with the resources they need to develop innovative ideas using new technology. 
+                
+                The IoT Open Innovation Lab will perform a full cycle of ideation, design, development, and prototyping
+                to generate new applications for the Internet of Things.
+            </p>
+          </div>
+        </div>
+        <div class='col-md-12'>
+          <div class='col-md-1'></div>
+          <div class='col-md-3'>
+            <h2> What can we offer you? </h2>
+          </div>
+        </div>
+        <div class='col-md-12 text-center'>
+          <div class='col-md-6'>
+            <p> What can we offer you text.
+                Northeastern University is creating an industrial scale Open Innovation platform to enable
+                students with the resources they need to develop innovative ideas using new technology. 
+              
+                The IoT Open Innovation Lab will perform a full cycle of ideation, design, development, and prototyping
+                to generate new applications for the Internet of Things.
+            </p>
+          </div>
+        </div>
+
           <div class="col-md-12">
             <div class='col-md-1'></div>
             <div class='col-md-10'>
