@@ -77,16 +77,17 @@
                 <div class='about-iot-user-out'>
                 <div class="featured-content about-iot-user">
                 <p>The Internet of Things (IoT) has been been “conservatively” described as an opportunity 
-                somewhere between <strong>four to US$11 trillion (10% of the world’s economy)</strong> in the next decade.  
+                somewhere between <strong>four to US$11 trillion</strong> (10% of the world’s economy) in the next decade.  
                 <br><br>
-                Northeastern University is standing up the first industrial-scale Open Innovation 
-                platform to perform a full-cycle of ideation, design, development and prototyping to 
-                generate applications for the Internet-of-Things across the entire university community.
+                
+                Northeastern University is creating an industrial scale Open Innovation platform to enable
+                students with the resources they need to develop innovative ideas using new technology. 
+              
+                The IoT Open Innovation Lab will perform a full cycle of ideation, design, development, and prototyping
+                to generate new applications for the Internet of Things.
                 <br><br>
-                At least as important, the Lab will be a platform for experiential learning and applied 
-                STEM education, as students solve real problems in a design environment that enables rapid 
-                progress and manageable learning curves. 
-                <br><br>
+                
+                
                 <strong>Our community is not just smart; it is ready-to-build and ready to create value. Join us 
                 on our endeavor; in order to succeed we need participation from all majors and colleges 
                 at Northeastern University.</strong></p>

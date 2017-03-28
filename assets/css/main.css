@@ -561,7 +561,7 @@ color: #000;
 .navbar-event .navbar-nav > .open > a:focus,
 .navbar-event .navbar-nav > .open > a:hover {
   background: transparent;
-    color: #333;
+  color: #333;
 }
 .caret {
   border-top: none;

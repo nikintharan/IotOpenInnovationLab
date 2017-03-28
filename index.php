@@ -19,21 +19,6 @@
           </div>
         
           <!--
-          <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.2s">
-            <div class='landing-module text-center vertical-center'>
-              <a href='learnmore.html' class='btn btn-common'> <h2>Learn More</h2></a>
-            </div>
-          </div>
-          
-          <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="0.2s">
-            <div class='landing-module text-center vertical-center'>
-                <a href='javascript:;' onclick="liLogin();trackClick('linkedinLogin');" class='btn btn-common red-btn'>
-                  <h2>Register with</h2><img src='assets/img/LinkedIn-2.png'>
-                </a>
-            </div>
-          
-          </div>-->
-          <!--
           <div class='col-md-6 wow fadeInRight stream text-center' data-wow-delay='0.2s'>
             <button class='btn btn-common stream-btn'>
               <i class='icon-social-youtube'></i> We're Live
