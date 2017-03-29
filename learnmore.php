@@ -6,7 +6,7 @@
           <div class="col-md-12 wow fadeInLeft" data-wow-delay="0.2s">
             <div class="text learnmore-title text-center">
               <div class='landing-text'>
-                <h2>IoT Open Innovation Lab</h2>
+                <h1>IoT Open Innovation Lab</h1>
                 <h4> At Northeastern University </h4>
               </div>
 
@@ -68,89 +68,57 @@
                 </div>
               </div>
           </div>
-        </div>
-        
+
         <div class='col-md-12'>
           <div class='col-md-1'></div>
-          <div class='col-md-3'> 
-            <h2> What is IoT </h2>
+          <div class='col-md-5'> 
+            <h2> What is IoT? </h2>
           </div>
         </div>
         <div class='col-md-12 text-center'>
-          <div class='col-md-6 tex-center'>
-          <p> What is IoT Text
-              Northeastern University is creating an industrial scale Open Innovation platform to enable
-              students with the resources they need to develop innovative ideas using new technology. 
-              
-              The IoT Open Innovation Lab will perform a full cycle of ideation, design, development, and prototyping
-              to generate new applications for the Internet of Things.
+          <div class='col-md-2'></div>
+          <div class='col-md-8'>
+          <p> The Internet of Things at its heart describes the broader transition to a connected life. IoT involves
+          connecting everyday devices to enable them to communicate with each other, in order to enable new 
+          innovations, discoveries, and improvements.<br><br> <strong>To learn more, watch this video from Intel.</strong></p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Q3ur8wzzhBU" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
         <div class='col-md-12'>
           <div class='col-md-1'></div>
-          <div class='col-md-3'>
+          <div class='col-md-5'>
             <h2> Who are we? </h2>
           </div>
         </div>
         <div class='col-md-12 text-center'>
-          <div class='col-md-6'>
-            <p> Who are we text
-                Northeastern University is creating an industrial scale Open Innovation platform to enable
-                students with the resources they need to develop innovative ideas using new technology. 
-                
-                The IoT Open Innovation Lab will perform a full cycle of ideation, design, development, and prototyping
-                to generate new applications for the Internet of Things.
+          <div class='col-md-2'></div>
+          <div class='col-md-8'>
+            <p> We are creating an industrial scale Open Innovation Platform to enable students to learn, innovate, and
+            solve industry problems. The IoT Open Innovation Lab will perform a full cycle of ideation, design, 
+            development, and prototyping to generate new applications of the Internet of Things.
             </p>
           </div>
         </div>
         <div class='col-md-12'>
           <div class='col-md-1'></div>
-          <div class='col-md-3'>
-            <h2> What can we offer you? </h2>
+          <div class='col-md-5'>
+            <h2>What do we offer?</h2>
           </div>
         </div>
         <div class='col-md-12 text-center'>
-          <div class='col-md-6'>
-            <p> What can we offer you text.
-                Northeastern University is creating an industrial scale Open Innovation platform to enable
-                students with the resources they need to develop innovative ideas using new technology. 
-              
-                The IoT Open Innovation Lab will perform a full cycle of ideation, design, development, and prototyping
-                to generate new applications for the Internet of Things.
+          <div class='col-md-2'></div>
+          <div class='col-md-8'>
+            <p> Members of the IoT Open Innovation Lab will have access to a full depth of valuable resources.
+            You will join our {contest / community} and solve real world problems working them through the idea 
+            {instead of ideation, simpler?} phase, into design, and then development. You will
+            learn incredible new skills, connect with industry representatives, and develop new ideas that you can
+            then bring to market.
             </p>
           </div>
         </div>
-
-          <div class="col-md-12">
-            <div class='col-md-1'></div>
-            <div class='col-md-10'>
-              <div class="featured-box2 wow fadeInLeft" data-wow-delay="0.2s">
-                <div class='about-iot-user-out'>
-                <div class="featured-content about-iot-user">
-                <p>The Internet of Things (IoT) has been been “conservatively” described as an opportunity 
-                somewhere between <strong>four to US$11 trillion</strong> (10% of the world’s economy) in the next decade.  
-                <br><br>
-                
-                Northeastern University is creating an industrial scale Open Innovation platform to enable
-                students with the resources they need to develop innovative ideas using new technology. 
-              
-                The IoT Open Innovation Lab will perform a full cycle of ideation, design, development, and prototyping
-                to generate new applications for the Internet of Things.
-                <br><br>
-                
-                
-                <strong>Our community is not just smart; it is ready-to-build and ready to create value. Join us 
-                on our endeavor; in order to succeed we need participation from all majors and colleges 
-                at Northeastern University.</strong></p>
-                </div>
-              </div>
-              </div>
-            </div
-          </div>
-        </div>
-        
       </div>
-    </section>
+    </div>
+  </section>
     <!-- Get Involved Section End -->
 
 
@@ -158,9 +126,6 @@
     <section id="featured" class="section crowd-bg">
       <div class="container">
         <div class="row">
-          
-          
-          
           <div class="col-md-12">
             <h2 class="section-title2 wow fadeInUp" data-wow-delay="0s">Sign Up via LinkedIn</h2>
           </div>

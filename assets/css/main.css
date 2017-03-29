@@ -17,6 +17,10 @@
 .landing-text {
   margin: 40px;
 }
+.landing-text h1 {
+  color: white;
+  font-size: 40px;
+}
 .red-btn h2 {
   font-size: 30px !important;
 }
@@ -178,9 +182,9 @@ fieldset[disabled] .btn {
 }
 .back-to-top i {
   display: block;
-  width: 40px;
+  width: 60px;
   font-size: 20px;
-  height: 40px;
+  height: 60px;
   background: #333;
   color: #fff;
   text-align: center;
@@ -765,7 +769,7 @@ color: #000;
    Countdown Style Start
    ========================================================================== */
 .countdown-timer {
-  min-height: 800px;
+  min-height: 500px;
   background: url(../img/background/iot-flippedv.png);
   z-index: 100;
   position: relative;

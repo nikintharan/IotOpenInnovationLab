@@ -70,7 +70,7 @@
 
         <!-- Go to Top Link -->
     <a href="#header-wrap" class="back-to-top">
-    <i class="icon-arrow-up"></i>
+    <i><img src='assets/img/RocketStart.png' height='60px' width='auto'></i>
     </a>
 
 
@@ -85,7 +85,7 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
     <!-- (Optional) Latest compiled and minified JavaScript translation files -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/i18n/defaults-*.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Countdown Js -->
     <!-- Smooth scroll JS -->   
     <script src="assets/js/smooth-scroll.js"></script>        

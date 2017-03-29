@@ -49,10 +49,6 @@
     <div class="page-header corporate">
       <div class="container"> 
         <div class="page-header-inner">         
-          <ol class="breadcrumb wow fadeInDown" data-wow-delay="300ms">
-            <li><a href="index.php">Home</a></li>
-            <li class="page">Corporate</li>
-          </ol>
           <h1 class="page-title wow fadeInRight" data-wow-delay="300ms">
             Corporate
           </h1>
@@ -66,7 +62,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2 class="section-title wow fadeInUp" data-wow-delay="0s">Sponsor the IoT Open Innovation Lab</h2>
+            <h2 class="section-title wow fadeInUp" data-wow-delay="0s">What we have to offer</h2>
               <div class="col-md-4 col-sm-6">
                 <div class="featured-box wow fadeInLeft" data-wow-delay="0.1s">
                   <div class="icon">
