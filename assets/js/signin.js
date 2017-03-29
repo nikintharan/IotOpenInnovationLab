@@ -15,7 +15,6 @@ var handleCorporate = function() {
     trackSignup("corporate");
     $('#corpSurvey').addClass('animated bounceInRight');
     $("#corpSurvey").attr("style", "display: inline;");
-    $('#corpSurvey').addClass('animated .fadeOut');
     $("#corpLogin").attr("style", "display: none;");
 }
 

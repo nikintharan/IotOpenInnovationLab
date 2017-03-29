@@ -167,8 +167,8 @@
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="spnsors-logo wow fadeInUp" data-wow-delay="0.3s">
-                        <a href="#"><img class="img-circle" src="assets/img/sponsors/nuce.jpg" alt="">
-                        <p>NUCE</p>
+                        <a href="http://www.northeastern.edu/entrepreneurship/"><img class="img-circle" src="assets/img/sponsors/nucee.jpg" alt="">
+                        <p>NUCEE</p>
                         </a>
                     </div>
                 </div>
