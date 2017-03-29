@@ -46,8 +46,16 @@
     </div>
 
     <!-- Page Header Start -->
-    <div class="page-header corporate">
+    <div class="corporate">
       <div class="container"> 
+        <div class='col-md-12 col-sm-12 col-xs-12'>
+          <div class="text register-red-button text-center">
+            <a href='javascript:;' onclick="liLogin();trackClick('linkedinLogin');" class='btn red-btn btn-common btn-lrg'>
+              <h2>Register with</h2>                
+              <img src='assets/img/LinkedIn-2.png'>
+            </a>  
+          </div>
+        </div>
         <div class="page-header-inner">         
           <h1 class="page-title wow fadeInRight" data-wow-delay="300ms">
             Corporate
@@ -62,15 +70,17 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2 class="section-title wow fadeInUp" data-wow-delay="0s">What we have to offer</h2>
+            
+            
+            <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">What we have to offer</h2>
               <div class="col-md-4 col-sm-6">
                 <div class="featured-box wow fadeInLeft" data-wow-delay="0.1s">
                   <div class="icon">
                     <i class="icon-badge"></i>
                   </div>
                   <div class="featured-content">
-                    <h4>Sponsor</h4>
-                    <p>Looking for innovators to help you solve your current IoT problems? The Open Innovation Lab can help you
+                    <h4>Crowdsourcing</h4>
+                    <p>Looking for innovators to help you solve your current and future IoT problems? The Open Innovation Lab can help you
                     find creative solutions by running competitions centered around the issues your business faces.</p>
                   </div>
                 </div>
@@ -97,8 +107,9 @@
                   </div>
                   <div class="featured-content">
                     <h4>Judge</h4>
-                    <p>We are constantly looking for proffessionals in the IoT industry to help judge our competitions! Not only is it
-                    a great way of getting involved with our lab, you will also get a first hand look at the current IoT innovation happening at Northeastern.</p>
+                    <p>We are looking for industry representatives to join our group of evaluators to help us decide
+                    which student projects will move on to the next stages. As an evaluator you will interact 
+                    with top IoT talent and guide students as they create innovative, world changing ideas.</p>
                   </div>
                 </div>
               </div>
@@ -107,7 +118,9 @@
       </div>
     </section>
     <!-- Get Involved Section End -->
-
+    
+    
+    
     <!-- Coming Soon Section Start -->
     <section id="featured" class="section crowd-bg">
       <div class="container">
@@ -175,7 +188,7 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="spnsors-logo wow fadeInUp" data-wow-delay="0.4s">
                         <a id="sponsorClick" onclick="trackClick('corporateSurvey');" href='javascript:;' data-toggle="modal" data-target="#survey"><img src="assets/img/sponsors/plus.png" alt="">
-                        <p>Possibly you! Click to get involved</p>
+                        <p>Possibly You</p>
                         <script>
                           window.mobilecheck = function() {
                             var check = false;

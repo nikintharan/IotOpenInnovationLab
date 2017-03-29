@@ -70,7 +70,7 @@
 
         <!-- Go to Top Link -->
     <a href="#header-wrap" class="back-to-top">
-    <i><img src='assets/img/RocketStart.png' height='60px' width='auto'></i>
+    <i class='icon-arrow-up'></i>
     </a>
 
 
