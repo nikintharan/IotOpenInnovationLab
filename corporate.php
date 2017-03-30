@@ -4,8 +4,9 @@
     <div class="corporate">
       <div class="container"> 
         <div class='col-md-12 col-sm-12 col-xs-12'>
-          <div class="text register-red-button text-center">
-            <a href='javascript:;' onclick="liLogin();trackClick('linkedinLogin');" class='btn red-btn btn-common btn-lrg'>
+          <div class="text register-red-button corporate-register-padding text-center">
+            
+            <a onclick="trackClick('corporateSurvey');" href='javascript:;' data-toggle="modal" data-target="#survey" class='btn red-btn btn-common btn-lrg' alt="LinkedIn">
               <h2>Register with</h2>                
               <img src='assets/img/LinkedIn-2.png'>
             </a>  

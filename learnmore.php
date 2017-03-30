@@ -9,10 +9,12 @@
                 <h1>IoT Open Innovation Lab</h1>
                 <h4> At Northeastern University </h4>
               </div>
+              <div class='register-red-button'>
               <a href='javascript:;' onclick="liLogin();trackClick('linkedinLogin');" class='btn red-btn btn-common btn-lrg'>
-                <h2>Register with</h2>                
+                <h2 >Register with</h2>                
                 <img src='assets/img/LinkedIn-2.png'>
-              </a>
+              </a>                  
+              </div>
             </div>
           </div>
           <!--

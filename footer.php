@@ -51,7 +51,6 @@
     
 
     <!-- Copytight Start -->
-    
     <section id="copyright">
         <div class="container">
             <div class="row">
@@ -79,7 +78,6 @@
     <!-- jQuery Load -->    
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/interact.js/1.2.6/interact.min.js"></script>    <!-- Page Header Start -->
-
     <!-- Bootstrap JS -->
     <script src="assets/js/bootstrap.min.js"></script> 
     <!-- Latest compiled and minified JavaScript -->
@@ -96,8 +94,34 @@
     <script src="assets/js/jquery.countdown.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/main.js"></script> 
-
     <script src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js"></script>
+
+  <?php
+  
+  function curPageURL() {
+   $pageURL = 'http';
+   if ($_SERVER["HTTPS"] == "on") {$pageURL .= "s";}
+   $pageURL .= "://";
+   if ($_SERVER["SERVER_PORT"] != "80") {
+    $pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
+   } else {
+    $pageURL .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
+   }
+   return $pageURL;
+  }
+  
+  // If cookie_value == 1 then this is treatment, otherwise this is control
+  $cookie_name = "treatOrControl";
+  if (curPageURL() == "iotopeninnovation.org/?eng=1" or curPageURL() == "www.iotopeninnovation.org/?eng=1") {
+    $cookie_value = "1";
+  } else if (curPageURL() == "iotopeninnovation.org/?eng=0" or curPageURL() == "www.iotopeninnovation.org/?eng=0") {
+    $cookie_value = "0";
+  }
+  setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
+  ?>
+
+
+
 
     <?php if($activePage == 'corporate')
     { ?>
@@ -124,7 +148,6 @@
         </div>
       </div>
     </div>
-    
     <!-- Survey Modal -->
     <div class="modal fade" id="survey" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog" style="width:790px;">

@@ -2,20 +2,13 @@
 /* ==========================================================================
    All Import File List
    ========================================================================== */
+   
 /* ==========================================================================
    Global Styles
    ========================================================================== */
 
 .front-text {
   padding-top:275px;
-}
-
-.register-red-button {
-  padding-top: 175px !important;
-}
-.register-red-button h2 {
-  color: white;
-  margin-top: 5px !important;
 }
 
 .landing-text {
@@ -25,6 +18,16 @@
   color: white;
   font-size: 40px; 
 }
+
+.corporate-register-padding {
+  padding-top: 175px !important;
+}
+
+.register-red-button h2 {
+  color: white;
+  margin-top: 5px !important;
+}
+
 .red-btn h2 {
   font-size: 30px !important;
 }
@@ -996,7 +999,6 @@ color: #000;
 .btn-hire {
   background-color: #c4c4c4;
   color: black;
-  border-color: grey;
   margin-top: 15px;
 }
 

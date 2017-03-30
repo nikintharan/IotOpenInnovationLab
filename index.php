@@ -2,6 +2,7 @@
 
 
 <body>
+  
   <!-- Coundown Section Start -->
     <section class="countdown-timer landing-full section">
       <div class="container">
