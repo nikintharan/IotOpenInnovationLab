@@ -121,8 +121,6 @@
   ?>
 
 
-
-
     <?php if($activePage == 'corporate')
     { ?>
     <script src='assets/js/windowcheck.js'></script>    
