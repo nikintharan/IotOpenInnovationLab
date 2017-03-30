@@ -11,8 +11,8 @@
               <img src="assets/img/iot-corp.png" width="500px" height="auto">
             </div>
             <div class="landing-buttons">
-              <a href="corporate.php" class="btn btn-common"> <h2>Learn More</h2></a>
-              <a href="javascript:;" onclick="liLogin();trackClick('linkedinLogin');" class="btn btn-common red-btn">
+              <a href="corporate.php" class="btn btn-common" onclick="trackClick('learnMoreCorporateLanding');"> <h2>Learn More</h2></a>
+              <a href="javascript:;" onclick="liLogin();trackClick('linkedinLoginCorporateLanding');" class="btn btn-common red-btn">
                 <h2>Join With</h2><img src="assets/img/LinkedIn-2.png">
               </a>
             </div>
