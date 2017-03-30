@@ -9,12 +9,10 @@
                 <h1>IoT Open Innovation Lab</h1>
                 <h4> At Northeastern University </h4>
               </div>
-
               <a href='javascript:;' onclick="liLogin();trackClick('userLearnMoreLinkedinLogin');" class='btn red-btn btn-common btn-lrg'>
-                <h2 style='margin-top: 5px !important'>Register with</h2>                
+                <h2>Register with</h2>             
                 <img src='assets/img/LinkedIn-2.png'>
               </a>
-              
             </div>
           </div>
           <!--
@@ -77,7 +75,7 @@
         </div>
         <div class='col-md-12 text-center'>
           <div class='col-md-2'></div>
-          <div class='col-md-8'>
+          <div class='col-md-8 about-question'>
           <p> The Internet of Things at its heart describes the broader transition to a connected life. IoT involves
           connecting everyday devices to enable them to communicate with each other, in order to enable new 
           innovations, discoveries, and improvements.<br><br> <strong>To learn more, watch this video from Intel.</strong></p>
@@ -92,7 +90,7 @@
         </div>
         <div class='col-md-12 text-center'>
           <div class='col-md-2'></div>
-          <div class='col-md-8'>
+          <div class='col-md-8 about-question'>
             <p> We are creating an industrial scale Open Innovation Platform to enable students to learn, innovate, and
             solve industry problems. The IoT Open Innovation Lab will perform a full cycle of ideation, design, 
             development, and prototyping to generate new applications of the Internet of Things.
@@ -107,7 +105,7 @@
         </div>
         <div class='col-md-12 text-center'>
           <div class='col-md-2'></div>
-          <div class='col-md-8'>
+          <div class='col-md-8 about-question'>
             <p> Members of the IoT Open Innovation Lab will have access to a full depth of valuable resources.
             You will join our {contest / community} and solve real world problems working them through the idea 
             {instead of ideation, simpler?} phase, into design, and then development. You will

@@ -17,14 +17,6 @@
               </a>
             </div>
           </div>
-        
-          <!--
-          <div class='col-md-6 wow fadeInRight stream text-center' data-wow-delay='0.2s'>
-            <button class='btn btn-common stream-btn'>
-              <i class='icon-social-youtube'></i> We're Live
-            </button>
-          </div>
-          -->
         </div>
       </div>
     
