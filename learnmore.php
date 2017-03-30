@@ -10,7 +10,7 @@
                 <h4> At Northeastern University </h4>
               </div>
 
-              <a href='javascript:;' onclick="liLogin();trackClick('linkedinLogin');" class='btn red-btn btn-common btn-lrg'>
+              <a href='javascript:;' onclick="liLogin();trackClick('userLearnMoreLinkedinLogin');" class='btn red-btn btn-common btn-lrg'>
                 <h2 style='margin-top: 5px !important'>Register with</h2>                
                 <img src='assets/img/LinkedIn-2.png'>
               </a>
