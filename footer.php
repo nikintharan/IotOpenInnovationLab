@@ -96,29 +96,6 @@
     <script src="assets/js/main.js"></script> 
     <script src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js"></script>
 
-  <?php
-  
-  function curPageURL() {
-   $pageURL = 'http';
-   if ($_SERVER["HTTPS"] == "on") {$pageURL .= "s";}
-   $pageURL .= "://";
-   if ($_SERVER["SERVER_PORT"] != "80") {
-    $pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
-   } else {
-    $pageURL .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
-   }
-   return $pageURL;
-  }
-  
-  // If cookie_value == 1 then this is treatment, otherwise this is control
-  $cookie_name = "treatOrControl";
-  if (curPageURL() == "iotopeninnovation.org/?eng=1" or curPageURL() == "www.iotopeninnovation.org/?eng=1") {
-    $cookie_value = "1";
-  } else if (curPageURL() == "iotopeninnovation.org/?eng=0" or curPageURL() == "www.iotopeninnovation.org/?eng=0") {
-    $cookie_value = "0";
-  }
-  setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
-  ?>
 
 
     <?php if($activePage == 'corporate')

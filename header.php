@@ -1,5 +1,21 @@
 <?php $activePage = basename($_SERVER['PHP_SELF'], ".php"); ?>
 <!DOCTYPE html>
+
+  <?php
+  
+
+  
+  // If cookie_value == 1 then this is treatment, otherwise this is control
+  $cookie_name = "treatOrControl";
+  echo $_COOKIE[$treatOrControl];
+  if (false) {
+    $cookie_value = "0";
+  } else if (true) {
+    $cookie_value = "1";
+  }
+  setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
+  ?>
+
 <html lang="en">
   <head>
     <meta charset="utf-8">

@@ -17,6 +17,18 @@
                 <h2>Register with</h2><img src="assets/img/LinkedIn-2.png">
               </a>
             </div>
+            <?php 
+            if ($_COOKIE["treatOrControl"] == 0) {
+              { ?>
+              <?php }
+            } else if ($_COOKIE["treatOrControl"] == 1) {
+              { ?>
+              <?php }
+            }
+            
+            ?>
+            
+            
           </div>
         </div>
       </div>
