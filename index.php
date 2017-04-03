@@ -19,13 +19,18 @@
             </div>
             <?php 
             if ($_COOKIE["treatOrControl"] == 0) {
+              echo "T ==== 0";
               { ?>
+              <h1>t=0</h1>
               <?php }
             } else if ($_COOKIE["treatOrControl"] == 1) {
+              echo "t====1";
               { ?>
+              <h1>t=1</h1>
               <?php }
+            } else {
+              echo "broken";
             }
-            
             ?>
             
             
