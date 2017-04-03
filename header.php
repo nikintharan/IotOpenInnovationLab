@@ -2,20 +2,16 @@
 <!DOCTYPE html>
 
   <?php
+  $urlArgument = $_GET['t'];
 
-  // If cookie_value == 1 then this is treatment, otherwise this is control
-  if (!isset($_COOKIE["$treatOrControl"])) {
+  if (isset($_GET['t']) and !isset($_COOKIE["treatOrControl"])) {
     
-    $urlArgument = $_SERVER['QUERY_STRING'];
     $cookie_name = "treatOrControl";
-    if ($urlArgument == 't=0') {
-      $cookie_value = "0";
-    } else if ($urlArgument == 't=1') {
-      $cookie_value = "1";
-    } else {
-      echo "broken";
+
+    if ($urlArgument == '0' or $urlArgument == '1') {
+      setcookie($cookie_name, $urlArgument, time() + (86400 * 30), "/"); 
     }
-    setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); 
+    
   }
   ?>
 

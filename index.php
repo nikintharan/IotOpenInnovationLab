@@ -17,22 +17,29 @@
                 <h2>Register with</h2><img src="assets/img/LinkedIn-2.png">
               </a>
             </div>
-            <?php 
-            if ($_COOKIE["treatOrControl"] == 0) {
-              echo "T ==== 0";
+            <!-- Template for PHP injection -->
+            <?php
+            
+            if (!isset($_COOKIE["treatOrControl"])) {
+              // Default content here
+              { ?>
+              <h1>default</h1>
+              <?php }
+              
+            } else if ($_COOKIE["treatOrControl"] == "0") {
+              // Control content here
               { ?>
               <h1>t=0</h1>
               <?php }
-            } else if ($_COOKIE["treatOrControl"] == 1) {
-              echo "t====1";
+              
+            } else if ($_COOKIE["treatOrControl"] == "1") {
+              // Treatment content here
+              
               { ?>
               <h1>t=1</h1>
               <?php }
-            } else {
-              echo "broken";
             }
             ?>
-            
             
           </div>
         </div>
