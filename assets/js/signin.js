@@ -13,14 +13,15 @@ var handleLanding = function() {
 // Tracking and animate survey modal
 var handleCorporate = function() {
     trackSignup("corporate");
-    $('#corpSurvey').addClass('animated bounceInRight');
-    $("#corpSurvey").attr("style", "display: inline;");
+    $('#survey').addClass('animated bounceInRight');
+    $("#survey").attr("style", "display: inline;");
     $("#corpLogin").attr("style", "display: none;");
 }
 
 var liLogin = function() { // Setup an event listener to make an API call once auth is complete
     IN.UI.Authorize().params({"scope":["r_basicprofile", "r_emailaddress"]}).place();
     IN.Event.on(IN, 'auth', handleLanding); //onLinkedinLoad will already handle the getProfileData
+    window.location = 'http://www.iotopeninnovation.org/userdash.php';
 }
 
 // Using secondary login function so that it can be embedded into a button and moved around,

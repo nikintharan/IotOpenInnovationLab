@@ -10,7 +10,7 @@
                 <h4> At Northeastern University </h4>
               </div>
               <div class='register-red-button'>
-              <a href='javascript:;' onclick="liLogin();trackClick('linkedinLogin');" class='btn red-btn btn-common btn-lrg'>
+              <a href='javascript:;' onclick="liLogin();trackClick('linkedinLogin');" data-toggle="modal" data-target="#studentsurvey" class='btn red-btn btn-common btn-lrg'>
                 <h2 >Register with</h2>                
                 <img src='assets/img/LinkedIn-2.png'>
               </a>                  
@@ -69,21 +69,6 @@
               </div>
           </div>
 
-        <div class='col-md-12'>
-          <div class='col-md-1'></div>
-          <div class='col-md-5'> 
-            <h2> What is IoT? </h2>
-          </div>
-        </div>
-        <div class='col-md-12 text-center'>
-          <div class='col-md-2'></div>
-          <div class='col-md-8 about-question'>
-          <p> The Internet of Things at its heart describes the broader transition to a connected life. IoT involves
-          connecting everyday devices to enable them to communicate with each other, in order to enable new 
-          innovations, discoveries, and improvements.<br><br> <strong>To learn more, watch this video from Intel.</strong></p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/Q3ur8wzzhBU" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </div>
         <div class='col-md-12'>
           <div class='col-md-1'></div>
           <div class='col-md-5'>

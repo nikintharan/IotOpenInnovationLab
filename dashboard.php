@@ -1,7 +1,7 @@
 <?php include ('header.php');?>
 
     <!-- Page Header Start -->
-    <div class="page-header">      
+    <div class="dashboard-header">      
       <div class="container"> 
         <div class="page-header-inner">         
           <h1 class="page-title wow fadeInRight" data-wow-delay="300ms">

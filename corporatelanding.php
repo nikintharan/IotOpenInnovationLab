@@ -12,12 +12,12 @@
             </div>
             <div class="landing-buttons">
               <a href="corporate.php" class="btn btn-common" onclick="trackClick('learnMoreCorporateLanding');"> <h2>Learn More</h2></a>
-              <a href="javascript:;" onclick="liLogin();trackClick('linkedinLoginCorporateLanding');" class="btn btn-common red-btn">
+              <a href="javascript:;" onclick="liLogin();trackClick('linkedinLoginCorporateLanding');" data-toggle="modal" data-target="#corporatesurvey" class="btn btn-common red-btn">
                 <h2>Join With</h2><img src="assets/img/LinkedIn-2.png">
               </a>
             </div>
           </div>
-          
+           
           <!--
           <div class='col-md-6 wow fadeInRight stream text-center' data-wow-delay='0.2s'>
             <button class='btn btn-common stream-btn'>

@@ -6,7 +6,7 @@
         <div class='col-md-12 col-sm-12 col-xs-12'>
           <div class="text register-red-button corporate-register-padding text-center">
             
-            <a onclick="trackClick('corporateSurvey');" href='javascript:;' data-toggle="modal" data-target="#survey" class='btn red-btn btn-common btn-lrg' alt="LinkedIn">
+            <a onclick="trackClick('corporateSurvey');" href='javascript:;' data-toggle="modal" data-target="#corporatesurvey" class='btn red-btn btn-common btn-lrg' alt="LinkedIn">
               <h2>Register with</h2>                
               <img src='assets/img/LinkedIn-2.png'>
             </a>  
@@ -143,7 +143,7 @@
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="spnsors-logo wow fadeInUp" data-wow-delay="0.4s">
-                        <a id="sponsorClick" onclick="trackClick('corporateSurvey');" href='javascript:;' data-toggle="modal" data-target="#survey"><img src="assets/img/sponsors/plus.png" alt="">
+                        <a id="sponsorClick" onclick="trackClick('corporateSurvey');" href='javascript:;' data-toggle="modal" data-target="#corporatesurvey"><img src="assets/img/sponsors/plus.png" alt="">
                         <p>Possibly You</p>
                         </a>
                     </div>
