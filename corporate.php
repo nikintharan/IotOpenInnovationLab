@@ -105,7 +105,7 @@
                 <div class="featured-content about-iot-corporate">
                   <p>The IoT Open Innovation Labs collaborative platform is a revolutionary 
                   tool enabling deep insight into how collaboration affects innovation. Our custom solutions allow us
-                  guide interdiscplinary users through a complex development cycle, 
+                  guide interdisciplinary users through a complex development cycle, 
                   thereby enabling us to engage a whole university. Our unique analytics tools are 
                   allowing us to establish a strong understanding of the ideal conditions for 
                   successful collaboration and innovation in team environments.</p>

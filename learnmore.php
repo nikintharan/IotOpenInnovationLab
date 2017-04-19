@@ -6,8 +6,28 @@
           <div class="col-md-12 wow fadeInLeft" data-wow-delay="0.2s">
             <div class="text learnmore-title text-center">
               <div class='landing-text'>
-                <h1>IoT Open Innovation Lab</h1>
-                <h4> At Northeastern University </h4>
+                <h1>The IoT Open Innovation Lab @ Northeastern</h1>
+                <?php
+                if (!isset($_COOKIE["isCollab"])) {
+                  // Default content here
+                  { ?>
+                  <h4>Creating Value by Crowdsourcing IoT Solutions</h4>
+                  <?php }
+                  
+                } else if ($_COOKIE["isCollab"] == "0") {
+                  // Competition Content here
+                  { ?>
+                  <h4>Competitive Crowdsourcing of IoT Solutions</h4>
+                  <?php }
+                  
+                } else if ($_COOKIE["isCollab"] == "1") {
+                  // Collaboration content here
+                  
+                  { ?>
+                  <h4>Collaborative Crowdsourcing of IoT Solutions</h4>
+                  <?php }
+                }
+                ?>
               </div>
               <div class='register-red-button'>
               <a href='javascript:;' onclick="liLogin();trackClick('linkedinLogin');" data-toggle="modal" data-target="#studentsurvey" class='btn red-btn btn-common btn-lrg'>
@@ -69,6 +89,21 @@
               </div>
           </div>
 
+        <div class='col-md-12'>
+          <div class='col-md-1'></div>
+          <div class='col-md-5'> 
+            <h2> What is IoT? </h2>
+          </div>
+        </div>
+        <div class='col-md-12 text-center'>
+          <div class='col-md-2'></div>
+          <div class='col-md-8 about-question'>
+          <p> The Internet of Things at its heart describes the broader transition to a connected life. IoT involves
+          connecting everyday devices to enable them to communicate with each other, in order to enable new 
+          innovations, discoveries, and improvements.<br><br> <strong>To learn more, watch this video from Intel.</strong></p>
+          <iframe width="500" height="200" src="https://www.youtube.com/embed/Q3ur8wzzhBU" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
         <div class='col-md-12'>
           <div class='col-md-1'></div>
           <div class='col-md-5'>

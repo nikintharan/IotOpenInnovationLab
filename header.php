@@ -4,15 +4,14 @@
 	<?php
 	$urlArgument = $_GET['t'];
 
-	if (isset($_GET['t']) and !isset($_COOKIE["treatOrControl"])) {
+	if (isset($_GET['t']) and !isset($_COOKIE["isCollab"])) {
 		
-		$cookie_name = "treatOrControl";
+		$cookie_name = "isCollab";
 		if ($urlArgument == '0' or $urlArgument == '1') {
 			setcookie($cookie_name, $urlArgument, time() + (86400 * 30), "/"); 
 		}
 	}
 	?>
-
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
